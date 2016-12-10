@@ -49,7 +49,7 @@ $( document ).ready(function() {
 		$("#date" + i).html(translation['date'][lang] + ": " + event['time_start']);
 		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event['time_register_start']);
 		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event['signup_count']);
-		$("#poster" + i).attr("src", event['img_poster']);
+		$("#poster" + i).attr("src", api + event['img_poster']);
 	    }
 	    else {
 		$('#event_div' + i).hide();
