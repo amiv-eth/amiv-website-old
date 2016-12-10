@@ -1,7 +1,7 @@
 baseurl = "http://amiv.com/"
 title = "AMIV Homepage"
 languageCode = "de-CH"
-theme = "themeAMIV"
+theme = "hugo-theme-casper"
 
 DefaultContentLanguage = "de"
 
@@ -21,6 +21,7 @@ canonifyurls = true
   custom_css = [""]
   custom_js = ["js/lib/amivcore.js"]
   api_url = "http://192.168.1.100"
+  cover = "images/banner.jpg"
 
 # SIDE MENU IN GERMAN
 
