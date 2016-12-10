@@ -26,4 +26,7 @@ beermachine :  Beermachine
 jobfair :  Jobfair 
 firmprofiles :  Firms Profiles 
 info4firms :  Informations for Firms 
-contact :  Contact 
+contact :  Contact
+username: Username
+password: Password
+submit: Submit 
