@@ -1,5 +1,5 @@
 +++
-type = "info"
+type = "about"
 title = "Der AMIV"
 sidemenu = "true"
 description = "Akademische Maschinen- und Elektroingenieuren Verein an der ETH Zürich"
