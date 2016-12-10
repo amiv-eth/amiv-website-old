@@ -54,8 +54,10 @@
   {{ range .Site.Params.custom_js }}
     <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
   {{ end }}
-  {{ if isset .Params "js" }} 
-    <script src="{{ $.Site.BaseURL }}js/{{ .Params.js }}.js"></script>
+  {{ if isset .Params "js" }}
+    {{ range .Params.js }} 
+    <script src="{{ $.Site.BaseURL }}js/{{ . }}.js"></script>
+    {{ end }}
   {{ end }}
   
    
