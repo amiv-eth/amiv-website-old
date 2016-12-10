@@ -1,0 +1,156 @@
+baseurl = "http://amiv.com/"
+title = "AMIV Homepage"
+languageCode = "de-CH"
+theme = "themeAMIV"
+
+DefaultContentLanguage = "de"
+
+author = "Mohammed Khouni"
+# Shown in the side menu
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+
+[params]
+  # Shown in the home page
+  subtitle = "A Hugo Theme"
+  brand = "amiv"
+  googleAnalytics = ""
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = [""]
+  custom_js = ["js/amiv.js"]
+
+# SIDE MENU IN GERMAN
+
+[languages.de]
+weight = 0
+languageName = "Deutsch"
+
+[[languages.de.menu.main]]
+  url = "/"
+  name = "Aktuell"
+  weight = 0
+  pre = "<i class='fa fa-home fa-fw'></i>"
+  identifier = "home"
+[[languages.de.menu.main]]
+  url = "/about/"
+  name = "Der AMIV"
+  weight = 10
+  pre = "<i class='fa fa-info-circle fa-fw'></i>"
+  identifier = "about"
+[[languages.de.menu.main]]
+  url = "/about/protocols"
+  name = "Protokolle"
+  weight = 12
+  pre = "<i class='fa fa-file-text fa-fw'></i>"
+  identifier = "protocols"
+  parent = "about"
+[[languages.de.menu.main]]
+  url = "/studies/"
+  name = "Studium"
+  weight = 20
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  identifier = "studies"
+[[languages.de.menu.main]]
+  url = "/studydocs/"
+  name = "Studienunterlagen"
+  weight = 30
+  pre = "<i class='fa fa-file-text-o fa-fw'></i>"
+  identifier = "studydocs"
+[[languages.de.menu.main]]
+  url = "/events/"
+  name = "Events"
+  weight = 40
+  pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
+  identifier = "events"
+[[languages.de.menu.main]]
+  url = "/ersti/"
+  name = "Ersti"
+  weight = 50
+  pre = "<i class='fa fa-street-view fa-fw'></i>"
+  identifier = "ersti"
+[[languages.de.menu.main]]
+  url = "/services/"
+  name = "Angebote"
+  weight = 60
+  pre = "<i class='fa fa-gears fa-fw'></i>"
+  identifier = "services"
+[[languages.de.menu.main]]
+  url = "/career/"
+  name = "Jobbörse"
+  weight = 70
+  pre = "<i class='fa fa-briefcase fa-fw'></i>"
+  identifier = "career"
+
+# SIDE MENU IN ENGLISH
+
+[languages.en]
+weight = 10
+languageName = "English"
+
+[[languages.en.menu.main]]
+  url = "/"
+  name = "Home"
+  weight = 0
+  pre = "<i class='fa fa-home fa-fw'></i>"
+  identifier = "home"
+[[languages.en.menu.main]]
+  url = "/about/"
+  name = "The AMIV"
+  weight = 10
+  pre = "<i class='fa fa-info-circle fa-fw'></i>"
+  identifier = "about"
+[[languages.en.menu.main]]
+  url = "/studies/"
+  name = "Studies"
+  weight = 20
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  identifier = "studies"
+[[languages.en.menu.main]]
+  url = "/studydocs/"
+  name = "Study Documents"
+  weight = 30
+  pre = "<i class='fa fa-file-text-o fa-fw'></i>"
+  identifier = "studydocs"
+[[languages.en.menu.main]]
+  url = "/events/"
+  name = "Events"
+  weight = 40
+  pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
+  identifier = "events"
+[[languages.en.menu.main]]
+  url = "/ersti/"
+  name = "Freshers"
+  weight = 50
+  pre = "<i class='fa fa-street-view fa-fw'></i>"
+  identifier = "ersti"
+[[languages.en.menu.main]]
+  url = "/services/"
+  name = "Services"
+  weight = 60
+  pre = "<i class='fa fa-gears fa-fw'></i>"
+  identifier = "services"
+[[languages.en.menu.main]]
+  url = "/career/"
+  name = "Career Portal"
+  weight = 70
+  pre = "<i class='fa fa-briefcase fa-fw'></i>"
+  identifier = "career"
+
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "AMIV_ETHZ"
+  facebook = "AMIV.ETHZ"
+
+  # SNS photo/video sharing
+  instagram = "*"
+  youtube = "AMIVanderETH"
+
+  # Techie
+  github = "amiv-eth"
+  stackoverflow = "*"
