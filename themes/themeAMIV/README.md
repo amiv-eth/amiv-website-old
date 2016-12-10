@@ -1,215 +1,165 @@
-# Blackburn
+# CASPER theme for hugo
 
-Blackburn is a clear and responsive theme for [Hugo](//gohugo.io).
 
-## Overview
+Casper is a single-column theme for [Hugo](http://gohugo.io/).
+Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper)
 
-* Based on Yahoo's [Pure CSS] (http://purecss.io/) (v0.6.0)
-* Fixed sidebar with social links:
-  * Twitter
-  * GNU social
-  * Facebook
-  * Google+
-  * Weibo
-  * Tumblr
-  * Instagram
-  * Flickr
-  * Pinterest
-  * YouTube
-  * Vimeo
-  * Vine
-  * SlideShare
-  * LinkedIn
-  * Xing
-  * Reddit
-  * Hacker News
-  * GitHub
-  * Bitbucket
-  * Stack Overflow
-  * Server Fault
-  * Steam
-  * MobyGames
-  * Last.fm
-  * Discogs
-  * Keybase
-* Client-side syntax highlighting by [Highlight.js](//highlightjs.org) (v9.1.0)
-* Web analytics by Google Analytics
-* Comments by Disqus
-* Icons by Font Awesome (v4.5.0)
+blog demo : http://vjeantet.fr
+blog source : https://github.com/vjeantet/vjeantet.fr
 
-## Demo
+![Hugo Casper Theme screenshot](https://raw.githubusercontent.com/vjeantet/hugo-theme-casper/master/images/screen.png)
 
-* [Demo](http://themes.gohugo.io/theme/blackburn/)
-* You can also see it in action on my personal website [here](http://yoshiharuyamashita.com/)
+## Features
 
-## Screenshots
+* Google Analytics (optional)
+* Disqus ( can disable comments by content)
+* Share buttons on Facebook, Twitter, Google (can disable share by content)
+* Big cover image (optional)
+* Custom cover by content (optional)
+* Tagging
+* Pagination
+* Menu
 
-![screenshot](https://raw.githubusercontent.com/yoshiharuyamashita/blackburn/master/images/screenshot.png)
+# Theme usage and asumptions
+* All blog posts are in the ```post``` folder (```content/post```)
+* The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)
 
-## Installation
+# Installation
 
-In your Hugo site directory, run:
+## Installing this theme
 
-```shell
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/yoshiharuyamashita/blackburn.git
-```
+    mkdir themes
+    cd themes
+    git clone https://github.com/vjeantet/hugo-theme-casper casper
 
-or download from [here](//github.com/yoshiharuyamashita/blackburn/archive/master.zip).
+## Build your website with this theme
 
-See [Hugo Quickstart Guide](//gohugo.io/overview/quickstart/) for more information.
+    hugo server -t casper
 
-## Configuration
+# Configuration
 
-Example config.toml:
+**config.toml**
 
-```toml
-baseurl = "https://www.example.com/"
-title = "Your site title"
-author = "Your name"
-# Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+``` toml
+BaseUrl= "http://example.com/"
+LanguageCode= "fr-FR"
+Title= "My blog is awesome"
+paginate = 5
+DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "All rights reserved - 2015"
 canonifyurls = true
-paginate = 10
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
 
 [params]
-  # Shown in the home page
-  subtitle = "A Hugo Theme"
-  brand = "Blackburn"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
-  # Include any custom CSS and/or JS files
-  # (relative to /static folder)
-  custom_css = ["css/my.css"]
-  custom_js = ["js/my.js"]
+  description = "this is my description"
+  cover = "images/cover.jpg"
+  author = "Valère JEANTET"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://vjeantet.fr"
+  bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "vjeantet"
+  twitterName = "vjeantet"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  [params.social]
+    twitter = "your_twitter"
 
-[menu]
-  # Shown in the side menu.
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/about/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 3
-    url = "/contact/"
-
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-
-  # SNS microblogging
-  twitter = "*"
-  gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  facebook = "*"
-  googleplus = "*"
-  weibo = "*"
-  tumblr = "*"
-
-  # SNS photo/video sharing
-  instagram = "*"
-  flickr = "*"
-  pinterest = "*"
-  youtube = "*"
-  vimeo = "*"
-  vine = "*"
-  slideshare = "*"
-
-  # SNS career oriented
-  linkedin = "*"
-  xing = "*"
-
-  # SNS news
-  reddit = "*"
-  hackernews = "*"
-
-  # Techie
-  github = "yoshiharuyamashita"
-  bitbucket = "*"
-  stackoverflow = "*"
-  serverfault = "*"
-
-  # Gaming
-  steam = "*"
-  mobygames = "*"
-
-  # Music
-  lastfm = "*"
-  discogs = "*"
-
-  # Other
-  keybase = "*"
 ```
 
-## Usage
+Example : [config.toml](https://github.com/vjeantet/vjeantet.fr/blob/master/config.toml)
 
-* Write Markdown files in `content/post`
-* Add fixed pages (e.g., about.md) to the side menu by defining them under `[menu]` in the config.toml:
+## Multiple authors configuration
 
-```toml
+In addition to providing data for a single author as shown in the example above, multiple authors
+can be configured via data/authors/\*.(yml, toml, json) entries. If the key provided in
+.Site.Params.author matched a data/authors/\* entry, it will be used as the default. Overrides
+per page can be done by a simple author = other_author_key entry in the front matter. For those
+pages where you want to omit the author block completely, a .Params.noauthor entry is also
+available.
+
+Example author definition file:
+
+``` yml
+name: John Doe
+bio: The most uninteresting man in the world.
+location: Normal, IL
+website: http://example.com
+thumbnail: images/john.png
+
+```
+
+Example override author per page file:
+``` toml
++++
+author = ""
+date = "2014-07-11T10:54:24+02:00"
+title = ""
+...
++++
+
+Contents here
+
+```
+
+## Menu configuration
+
+On top right of the screen, a "Subscribe" button is displayed with a link to the RSS feed.
+
+When you define a menu in the main config file, Then a menu button is displayed instead of the subscribe button
+When the use clicks the menu button, a sidebar appears and shows the subscribe button and all items defined in the main config file
+
+> :information_source: If your added a metadata like ```menu="main"``` in a content file metadata, it will also be displayed in the main menu
+
+Example of a menu definition in main config file.
+
+
+``` toml
 [[menu.main]]
-  name = "About"
-  pre = "<i class='fa fa-user fa-fw'></i>"
-  weight = 2
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
   identifier = "about"
-  url = "/about/"
-```
-
-* Override the theme by linking to custom CSS files:
-
-```toml
-[params]
-  custom_css = ["css/my.css"]
-```
-
-* Add new behaviours by linking to custom JS files:
-
-```toml
-[params]
-  custom_js = ["js/my.js"]
-```
-
-## Shortcodes
-
-### Positional
+  url = "/about"
 
 ```
-{{% fluid_img "/path/to/img" %}}
+
+## Metadata on each content file, example
+
+``` toml
++++
+author = ""
+date = "2014-07-11T10:54:24+02:00"
+draft = false
+title = "dotScale 2014 as a sketch"
+slug = "dotscale-2014-as-a-sketch"
+tags = ["event","dotScale","sketchnote"]
+image = "images/2014/Jul/titledotscale.png"
+comments = true     # set false to hide Disqus comments
+share = true        # set false to share buttons
+menu = ""           # set "main" to add this content to the main menu
++++
+
+Contents here
 ```
 
-### Named
-
+## Create new content based with default metadata from this theme
+You can easyly create a new content with all metadatas used by this theme, using this command
 ```
-{{% fluid_img class="pure-u-1-2" src="/path/to/img" alt="img description" %}}
-{{% fluid_img class="pure-u-1-3" src="/path/to/img" caption="img description" %}}
+hugo new -t casper post/my-post.md
 ```
 
-* `class`, `alt` and `caption` are optional.
-* See [Pure CSS Grids](http://purecss.io/grids/) for possible `class` values.
+# Contact me
 
-## License
+:beetle: open an issue in github
 
-* [MIT](//opensource.org/licenses/MIT)
+:bird: [https://twitter.com/vjeantet](https://twitter.com/vjeantet)
