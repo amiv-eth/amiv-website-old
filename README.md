@@ -29,3 +29,17 @@ The static content of the amiv-website is located in `content` and formated usin
 
 Curently the theme [blackburn](https://github.com/yoshiharuyamashita/blackburn) is used. TODO!
 
+## Developer
+
+### Javascript
+
+Javascript specific to only single pages are set with the js variable in the header of the markdown file: 
+```
++++
+title = "events"
+description = ""
+date = "2016-12-10T12:51:22+01:00"
+js = "events"
++++
+```
+This markdown file expects a javascript file in `static/js/events.js`.
