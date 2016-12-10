@@ -14,7 +14,7 @@ $( document ).ready(function() {
 	    + "<p id='reg_date" + i + "'></p>"
 	    + "<p id='signup_count" + i + "'></p> </div>"
 	    + "<div class='pure-u-1-2'>"
-	    + "<img id='poster" + i + "'>"
+	    + "<img class='pure-img' id='poster" + i + "'>"
 	    + "</div></div>";
 	
 	event_html = "<div id='event_div" + i + "'>" + event_html + "</div>";

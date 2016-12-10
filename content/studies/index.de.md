@@ -1,31 +1,25 @@
 +++
-title = "About"
-date = "2014-04-09"
+title = "Studieninformation"
+date = "2016-12-10"
 sidemenu = "true"
-description = "About me and this site"
+
 +++
+# Hochschulpolitik und Studieninfos
 
-Hugo is a static site engine written in Go.
+Auf diesen Seiten erfährst du über die hochschulpolitischen Tätigkeiten des AMIV und erhältst Informationen, Stundenpläne und Links zu den einzelnen Fächern in deinem Studiengang. Zudem enthalten die FAQs Antworten auf viele oft gestellte Fragen - Angefangen mit Infos zum Studienwechsel über eine Liste der Computerräume bis hin zur Anleitung, wie du Nachts in ETH Lernräume kommst.
 
+## Vor dem Studium
 
-It makes use of a variety of open source projects including:
+### Maschinenbau, Elektrotechnik oder Informatik?
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+Zusammen mit dem Fachverein der Informatikstudierenden informieren wir auf den Informationstagen der ETH die Maturanden über die Unterschiede zwischen Elektrotechnik, Maschinenbau und Informatik. Die Slides sind hier abrufbar:
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+### Vorlesungen Auswählen
 
-## Setup
+Für die Fächerbelegung kann die Evaluationsübersicht der vergangenen Semester eine Entscheidungshilfe sein:
 
-Some fun facts about [Hugo](http://gohugo.io/):
+https://www.mavt.ethz.ch/education/lehrevaluation
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+## Achtung!
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Der AMIV versucht, diese Seiten so aktuell und korrekt wie möglich zu halten. Vor allem die Stundenpläne und die Prüfungsbedingungen enthalten keine offiziellen und verbindlichen Informationen sondern sollen euch einen groben Überblick ermöglichen. Verbindliche Informationen erhaltet ihr auf den jeweiligen Vorlesungswebseiten oder im Vorlesungsverzeichnis der ETH

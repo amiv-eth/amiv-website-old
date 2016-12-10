@@ -40,6 +40,7 @@ languageName = "Deutsch"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
+  hasChildren = true
 [[languages.de.menu.main]]
   url = "/about/protocols"
   name = "Protokolle"
@@ -53,6 +54,14 @@ languageName = "Deutsch"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "studies"
+  hasChildren = true
+[[languages.de.menu.main]]
+  url = "/studies/hopo-mavt"
+  name = "Hochschulpolitik MAVT"
+  weight = 20
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  identifier = "hopo-mavt"
+  parent = "studies"
 [[languages.de.menu.main]]
   url = "/studydocs/"
   name = "Studienunterlagen"
