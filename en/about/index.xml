@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-rsses on AMIV Homepage</title>
+    <link>http://amiv.com/en/about/index.xml</link>
+    <description>Recent content in About-rsses on AMIV Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-CH</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 07 Dec 2016 14:37:10 +0100</lastBuildDate>
+    <atom:link href="http://amiv.com/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>YOOOO PROTOCOLS</title>
+      <link>http://amiv.com/en/about/protocols/</link>
+      <pubDate>Wed, 07 Dec 2016 14:37:10 +0100</pubDate>
+      
+      <guid>http://amiv.com/en/about/protocols/</guid>
+      <description>
+
+&lt;h1 id=&#34;protocols&#34;&gt;PROTOCOLS&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The AMIV</title>
+      <link>http://amiv.com/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amiv.com/en/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-amiv&#34;&gt;ABOUT AMIV&lt;/h1&gt;
+
+&lt;p&gt;Der _A_kademische _M_aschinen- und Elektro-_I_ngenieur _V_erein (AMIV) der ETH wurde im Jahre 1893 gegründet. Er vertritt als Fachverein die Studenten der Departmente [Informationstechnologie und Elektrotechnik (D-ITET)] sowie [Maschinenbau und Verfahrenstechnik (D-MAVT)]. Mit ungefähr 3 000 Mitgliedern ist er der mit Abstand grösste und aktivste Fachverein an der ETH. Als Fachverein ist der AMIV dem [VSETH (Verband der Studierenden an der ETH)] angeschlossen. Vereinszweck und Organisation des Vereins kann natürlich in den [Vereinsstatuten] nachgelesen werden.&lt;/p&gt;
+
+&lt;h2 id=&#34;tätigkeiten&#34;&gt;Tätigkeiten&lt;/h2&gt;
+
+&lt;p&gt;Der AMIV betätigt sich in vielerlei Hinsicht für das Wohl der von ihm vertretenen Studenten:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Die hochschulpolitische Vertretung genüber den Departementen wird durch die HoPo-Teams ([HoPo-ITET] und [HoPo-MAVT]) des AMIV organisiert.&lt;/li&gt;
+&lt;li&gt;Die Organisation von kulturellen Events, Parties und sonstigen gesselligen Aktivtäten wird vom [Kulturteam] übernommen.&lt;/li&gt;
+&lt;li&gt;Exkursionen und Sponsoring werden vom External Relations (ER) Team auf die Beine gestellt.&lt;/li&gt;
+&lt;li&gt;Die generelle administrative Arbeit führt der [AMIV-Vorstand] aus. Dessen Tätigkeit kann in den [Sitzungsprotokollen] nachgelesen werden.&lt;/li&gt;
+&lt;li&gt;Die verschiedenen [Kommissionen] bieten zusätzliche Angebote an.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kontakt&#34;&gt;Kontakt&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;AMIV an der ETH&lt;/strong&gt;
+CAB E37
+Universitätsstrasse 6
+8092 Zürich&lt;/p&gt;
+
+&lt;p&gt;+41 44 632 42 45
+&lt;a href=&#34;mailto:info@amiv.ethz.ch&#34;&gt;info@amiv.ethz.ch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Räumlichkeiten des AMIV befinden sich im Gebäude CAB, E-Stock, im Zentrum der ETH Zürich:&lt;/p&gt;
+
+&lt;p&gt;![AMIV Location][AMIV Location Image]&lt;/p&gt;
+
+&lt;h2 id=&#34;wie-werde-ich-mitglied-beim-amiv&#34;&gt;Wie werde ich Mitglied beim AMIV?&lt;/h2&gt;
+
+&lt;p&gt;Als Student der Departmente D-ITET und D-MAVT wird man Mitglied beim AMIV(gemäss den Statuten), indem man Mitglied des VSETH ist. Um Mitglied beim VSETH zu werden, muss einzig der Semesterbeitrag bezahlt werden (CHF 10.-). Dazu musst du einfach bei der Online-Einschreibung via myStudies das entsprechende Häkchen setzen, wie im folgenden Bild zu sehen ist:
+![Anweisungen Mitglied werden][Anweisungen Mitglied werden Image]
+Solltest du diesen Haken vergessen haben, aber dennoch noch Mitglied beim AMIV werden, so kannst du dich einfach kurz beim Vorstand melden, dieser wird dir dann das weitere Vorgehen erklären. Von den CHF 10.- Studenten-Beitrag fliesst der grösste Teil in die Kasse des AMIV. Je mehr Studenten also Mitglied beim VSETH sind, desto mehr Mittel haben wir zur Verfügung wärend des Semesters, um dir coole Events und seröse Dienstleistungen zu bieten.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
