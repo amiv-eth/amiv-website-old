@@ -19,7 +19,7 @@ canonifyurls = true
   # Include any custom CSS and/or JS files
   # (relative to /static folder)
   custom_css = [""]
-  custom_js = ["js/amivocre.js", "js/amiv.js"]
+  custom_js = ["js/amivcore.js"]
 
 # SIDE MENU IN GERMAN
 
