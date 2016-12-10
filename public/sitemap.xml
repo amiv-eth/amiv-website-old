@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://amiv.com/de/sitemap.xml</loc>
+		
+	   	<lastmod>2016-12-07T14:37:10+01:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://amiv.com/en/sitemap.xml</loc>
+		
+	   	<lastmod>2016-12-07T14:37:10+01:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
