@@ -20,6 +20,7 @@ canonifyurls = true
   # (relative to /static folder)
   custom_css = [""]
   custom_js = ["js/lib/amivcore.js"]
+  api_url = "http://192.168.1.100"
 
 # SIDE MENU IN GERMAN
 

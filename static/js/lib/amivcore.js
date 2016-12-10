@@ -12,7 +12,7 @@
             // Important vars n' stuff
             lib: {
                 //api_url: 'https://amiv-apidev.vsos.ethz.ch',
-                api_url: 'https://amiv-apidev.vsos.ethz.ch',
+                api_url: api, //'https://amiv-apidev.vsos.ethz.ch',
                 spec_url: '/js/lib/spec.json',
                 //spec_url: 'https://nicco.io/amiv/docs/spec.json',
                 authenticated: false,

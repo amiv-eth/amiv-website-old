@@ -46,6 +46,8 @@
   <!-- FAVICON -->
   {{ partial "favicon.html" . }}
 
+  <script>api = {{ .Site.Params.api_url }};</script>
+  
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
   {{ end }}
@@ -55,4 +57,6 @@
   {{ if isset .Params "js" }} 
     <script src="{{ $.Site.BaseURL }}js/{{ .Params.js }}.js"></script>
   {{ end }}
+  
+   
 </head>
