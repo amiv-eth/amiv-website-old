@@ -20,8 +20,9 @@ canonifyurls = true
   # Include any custom CSS and/or JS files
   # (relative to /static folder)
   custom_css = [""]
-  custom_js = ["js/lib/amivcore.js"]
+  custom_js = ["js/lib/amiv-jsclient/amivcore.js"]
   api_url = "http://192.168.1.100"
+  spec_url = "https://amiv-apidev.vsos.ethz.ch/docs/spec.json"
   cover = "images/banner.jpg"
 
 # SIDE MENU IN GERMAN
