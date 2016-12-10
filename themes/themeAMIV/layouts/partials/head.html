@@ -46,7 +46,10 @@
   <!-- FAVICON -->
   {{ partial "favicon.html" . }}
 
-  <script>api = {{ .Site.Params.api_url }};</script>
+  <script>
+    api = {{ .Site.Params.api_url }};
+    lang = {{ .Lang }};
+  </script>
   
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
