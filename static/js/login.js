@@ -10,14 +10,14 @@ $(document).ready(function(){
 	}else {
 	    amivcore.on('ready', function(){
 		amivcore.login(user, password, function(loginReturn){
-			if (loginReturn !== true)
-		    		alert("Wrong credentials!")
-	    		})
-		});
+		    if (loginReturn !== true)
+		    	alert("Wrong credentials!")
+	    	})
+	    });
 	}
     });
     $("#loginSideMenu").click(function(){
-	    console.log("Pressed login");
-	    $("#myModal").modal('show');
+	console.log("Pressed login");
+	$("#myModal").modal('show');
     });
 });
