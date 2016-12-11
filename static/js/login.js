@@ -17,6 +17,7 @@ $(document).ready(function(){
 	}
     });
     $("#loginSideMenu").click(function(){
-	    $("myModal").modal();
+	    console.log("Pressed login");
+	    $("#myModal").modal('show');
     });
 });
