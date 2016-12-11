@@ -9,13 +9,16 @@ $(document).ready(function(){
 	    alert("Please fill all fields!");
 	}else {
 	    amivcore.login(user, password, function(loginReturn){
-		if (loginReturn !== true)
+		if (loginReturn !== true){
 		    alert("Wrong credentials!")
+		} else {
+			$("#myModal").modal("toggle");
+		}
 	    });
 	}
     });
     $("#loginSideMenu").click(function(){
 	console.log("Pressed login");
-	$("#myModal").modal('show');
+	$("#myModal").modal("toggle");
     });
 });
