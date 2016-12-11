@@ -1,7 +1,8 @@
 translation = {
     'date': {'de': "<b>Datum</b>", 'en': "<b>date</b>"},
     'register_date': {'de': "<b>Anmeldedatum</b>", 'en': '<b>register date</b>'},
-    'signup_count': {'de': '<b>Freie Plätze</b>', 'en': '<b>free spots</b>'}
+    'signup_count': {'de': '<b>Freie Plätze</b>', 'en': '<b>free spots</b>'},
+    'signup': {'de': 'Anmelden', 'en': 'signup'}
 };
 
 $( document ).ready(function() {
@@ -12,7 +13,9 @@ $( document ).ready(function() {
 	    + "<p id='descr" + i + "'></p>"
 	    + "<p id='date" + i + "'></p>"
 	    + "<p id='reg_date" + i + "'></p>"
-	    + "<p id='signup_count" + i + "'></p> </div>"
+	    + "<p id='signup_count" + i + "'></p>"
+	    + "<button id='signup" + i + "' class='pure-button'>"
+	    + translation['signup'][lang] + "</button></div>"
 	    + "<div class='pure-u-1-2'>"
 	    + "<img class='pure-img' id='poster" + i + "'>"
 	    + "</div></div>";
@@ -49,6 +52,7 @@ $( document ).ready(function() {
 		$("#date" + i).html(translation['date'][lang] + ": " + event_single['time_start']);
 		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event_single['time_register_start']);
 		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event_single['signup_count']);
+		$("#signup" + i).attr("onclick", "signup_for_event(" + (i+start_idx) + ");");
 		if(event_single['img_poster'] !== undefined ){
 			$("#poster" + i).attr("src", api + event_single['img_poster']);
 		}
@@ -57,5 +61,8 @@ $( document ).ready(function() {
 		$('#event_div' + i).hide();
 	    }
 	}
+    }
+    signup_for_event = function(index) {
+	console.log("this would sign you up for event with id: " + events[index]['_id']);
     }
 });
