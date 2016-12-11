@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	    + "</div></div>";
 	
 	event_html = "<div id='event_div" + i + "'>" + event_html + "</div>";
-	$(".content").append(event_html);
+	$(".post-content").append(event_html);
     }
     // get all events form the api
     // where show website = true and sorted by start_time
@@ -31,10 +31,10 @@ $( document ).ready(function() {
 	// add pagination buttons
 	var pagination_html = "";
 	for (var i = 0; i < Math.ceil(events.length/10); i++) {
-	    pagination_html += '<a href="#Title"><button class="pure-button" onclick="printevents(' + (i*10) + ')">' + (i+1) + '</button></a>';
+	    pagination_html += '<a href="#menu-button"><button class="pure-button" onclick="printevents(' + (i*10) + ')">' + (i+1) + '</button></a>';
 	}
 	pagination_html = '<div>' + pagination_html + '</div>'; 
-	$(".content").append(pagination_html);
+	$(".post-content").append(pagination_html);
 	
     });
 
