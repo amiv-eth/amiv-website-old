@@ -8,12 +8,10 @@ $(document).ready(function(){
 	    $('input[type="text"],input[type="password"]').css("box-shadow","0 0 3px red");
 	    alert("Please fill all fields!");
 	}else {
-	    amivcore.on('ready', function(){
 		amivcore.login(user, password, function(loginReturn){
 		    if (loginReturn !== true)
 		    	alert("Wrong credentials!")
-	    	})
-	    });
+	    	});
 	}
     });
     $("#loginSideMenu").click(function(){
