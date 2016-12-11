@@ -7,7 +7,17 @@
 				<h4 class="modal-title">LOGIN</h4>
 			</div>
 			<div class="modal-body">
-				<p>Some text</p>
+				<form>
+					<div class="form-group">
+						<label for="usernameInput">{{ i18n username }}</label>
+						<input type="text" class="form-control" id="usernameInput">
+					</div>
+					<div class="form-group">
+						<label for="passwordInput">{{ i18n password }}</label>
+						<input type="password" class="form-control" id="passwordInput" placeholder="{{ i18n password}}">
+					</div>
+					<button type="submit" class="btn btn-primary">{{ i18n submit }}</button>
+				</form>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">{{ i18n close }}</button>
