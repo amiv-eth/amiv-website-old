@@ -2,7 +2,8 @@ translation = {
     'date': {'de': "<b>Datum</b>", 'en': "<b>date</b>"},
     'register_date': {'de': "<b>Anmeldedatum</b>", 'en': '<b>register date</b>'},
     'signup_count': {'de': '<b>Freie Plätze</b>', 'en': '<b>free spots</b>'},
-    'signup': {'de': 'Anmelden', 'en': 'signup'}
+    'signup': {'de': 'Anmelden', 'en': 'signup'},
+    'description': {'de': '<b>Beschreibung</b>', 'en': '<b>Description</b>'}
 };
 
 $( document ).ready(function() {
@@ -23,6 +24,23 @@ $( document ).ready(function() {
 	event_html = "<div class='row' id='event_div" + i + "'>" + event_html + "</div>";
 	$(".post-content").append(event_html);
     }
+    //append modal to content
+    var modal_html  = '<div class="modal" tabindex="-1" role="dialog" id="modal_signup" data-backdrop="false">'
+	+ '<div class="modal-dialog" role="document">'
+	+ '<div class="modal-content">'
+	+ '<div class="modal-header">'
+	+ '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>'
+	+ '<h4 class="modal-title">Modal title</h4></div>'
+	+ '<div class="modal-body"></div>'
+	+ '<div class="modal-footer">'
+        + '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+        + '<button type="button" class="btn btn-primary" id="modal_signup_button">' + translation['signup'][lang] + '</button>'
+	+ '</div>'
+	+ '</div><!-- /.modal-content -->'
+	+ '</div><!-- /.modal-dialog -->'
+	+ '</div><!-- /.modal -->';
+    $(".post-content").append(modal_html);
+    
     // get all events form the api
     // where show website = true and sorted by start_time
      // d.toISOString returns the miliseconds too. These are cut with slice(0, -5) and then the "Z" is readded at the end 
@@ -56,7 +74,7 @@ $( document ).ready(function() {
 		$("#date" + i).html(translation['date'][lang] + ": " + event_single['time_start']);
 		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event_single['time_register_start']);
 		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event_single['signup_count']);
-		$("#signup" + i).attr("onclick", "signup_for_event(" + (i+start_idx) + ");");
+		$("#signup" + i).attr("onclick", "signup_modal(" + (i+start_idx) + ");");
 		if(event_single['img_poster'] !== undefined )
 		    $("#poster" + i).attr("src", api + event_single['img_poster']['file']);
 		else if(event_single['img_infoscreen'] !== undefined )
@@ -69,7 +87,19 @@ $( document ).ready(function() {
 	    }
 	}
     }
-    signup_for_event = function(index) {
-	console.log("this would sign you up for event with id: " + events[index]['_id']);
+    signup_modal = function(index) {
+	var event_single = events[index];
+	$('.modal-title').html(events[index]['title_' + lang]);
+	var event_text = translation['description'][lang] + ": " + events[index]['description_' + lang]
+	    + "<br>" + translation['date'][lang] + ": " + event_single['time_start']
+	    + "<br>" + translation['signup_count'][lang] + ": " + event_single['signup_count'];
+	$('.modal-body').html(event_text);
+	$('#modal_signup_button').attr("onclick", "signup_event('" + event_single['_id'] + "');");
+	$('#modal_signup').modal('show');
+    }
+
+    signup_event = function(_id) {
+	console.log("YOU WOULD BE SIGNED UP HERE IF LOGIN WORKS");
+	console.log("event: " + _id);
     }
 });
