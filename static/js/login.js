@@ -8,15 +8,15 @@ $(document).ready(function(){
 	    $('input[type="text"],input[type="password"]').css("box-shadow","0 0 3px red");
 	    alert("Please fill all fields!");
 	}else {
-	    amivcore.login(user, password, function(loginReturn){
-		if (loginReturn !== true)
-		    alert("Wrong credentials!")
-	    })
+	    amivcore.on('ready', function(){
+		amivcore.login(user, password, function(loginReturn){
+			if (loginReturn !== true)
+		    		alert("Wrong credentials!")
+	    		})
+		});
 	}
     });
-    $("#loginHeader").leanModal({
-	top: 100,
-	overlay: 0.6,
-	closeButton: ".modal_close"
+    $("#loginSideMenu").click(function(){
+	    $("myModal").modal();
     });
 });
