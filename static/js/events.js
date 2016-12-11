@@ -57,9 +57,12 @@ $( document ).ready(function() {
 		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event_single['time_register_start']);
 		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event_single['signup_count']);
 		$("#signup" + i).attr("onclick", "signup_for_event(" + (i+start_idx) + ");");
-		if(event_single['img_infoscreen'] !== undefined ){
+		if(event_single['img_poster'] !== undefined )
+		    $("#poster" + i).attr("src", api + event_single['img_poster']['file']);
+		else if(event_single['img_infoscreen'] !== undefined )
 		    $("#poster" + i).attr("src", api + event_single['img_infoscreen']['file']);
-		}
+		else if(event_single['img_banner'] !== undefined )
+		    $("#poster" + i).attr("src", api + event_single['img_banner']['file']);
 	    }
 	    else {
 		$('#event_div' + i).hide();
