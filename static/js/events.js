@@ -47,15 +47,21 @@ $( document ).ready(function() {
     printevents = function(start_idx) {
 	for (var i = 0; i < 10; i++) {
 	    if (i + start_idx < events.length){
-		var event = events[i + start_idx];
+		var event_single = events[i + start_idx];
 		$('#event_div' + i).show();
-		$("#title" + i).html(event['title_' + lang]);
-		$("#descr" + i).html(event['description_' + lang]);
-		$("#date" + i).html(translation['date'][lang] + ": " + event['time_start']);
-		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event['time_register_start']);
-		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event['signup_count']);
+		$("#title" + i).html(event_single['title_' + lang]);
+		$("#descr" + i).html(event_single['description_' + lang]);
+		$("#date" + i).html(translation['date'][lang] + ": " + event_single['time_start']);
+		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event_single['time_register_start']);
+		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event_single['signup_count']);
 		$("#signup" + i).attr("onclick", "signup_for_event(" + (i+start_idx) + ");");
-		$("#poster" + i).attr("src", api + event['img_infoscreen']['file']);
+		if(event_single['img_poster'] !== undefined )
+		    $("#poster" + i).attr("src", api + event_single['img_poster']['file']);
+		else if(event_single['img_infoscreen'] !== undefined )
+		    $("#poster" + i).attr("src", api + event_single['img_infoscreen']['file']);
+		else if(event_single['img_banner'] !== undefined )
+		    $("#poster" + i).attr("src", api + event_single['img_banner']['file']);
+
 	    }
 	    else {
 		$('#event_div' + i).hide();
