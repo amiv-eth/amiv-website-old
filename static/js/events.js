@@ -31,7 +31,7 @@ $( document ).ready(function() {
 	// add pagination buttons
 	var pagination_html = "";
 	for (var i = 0; i < Math.ceil(events.length/10); i++) {
-	    pagination_html += '<button class="pure-button" onclick="printevents(' + (i*10) + ')">' + (i+1) + '</button>';
+	    pagination_html += '<a href="#Title"><button class="pure-button" onclick="printevents(' + (i*10) + ')">' + (i+1) + '</button></a>';
 	}
 	pagination_html = '<div>' + pagination_html + '</div>'; 
 	$(".content").append(pagination_html);
@@ -42,14 +42,16 @@ $( document ).ready(function() {
     printevents = function(start_idx) {
 	for (var i = 0; i < 10; i++) {
 	    if (i + start_idx < events.length){
-		var event = events[i + start_idx];
+		var event_single = events[i + start_idx];
 		$('#event_div' + i).show();
-		$("#title" + i).html(event['title_' + lang]);
-		$("#descr" + i).html(event['description_' + lang]);
-		$("#date" + i).html(translation['date'][lang] + ": " + event['time_start']);
-		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event['time_register_start']);
-		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event['signup_count']);
-		$("#poster" + i).attr("src", api + event['img_poster']);
+		$("#title" + i).html(event_single['title_' + lang]);
+		$("#descr" + i).html(event_single['description_' + lang]);
+		$("#date" + i).html(translation['date'][lang] + ": " + event_single['time_start']);
+		$("#req_date" + i).html(translation['register_date'][lang] + ": " + event_single['time_register_start']);
+		$("#signup_count" + i).html(translation['signup_count'][lang] + ": " + event_single['signup_count']);
+		if(event_single['img_poster'] !== undefined ){
+			$("#poster" + i).attr("src", api + event_single['img_poster']);
+		}
 	    }
 	    else {
 		$('#event_div' + i).hide();
