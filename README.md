@@ -3,7 +3,7 @@ The new amiv website built with [hugo](https://github.com/spf13/hugo).
 
 ## Deployment
 
-### Generate the static html page and deply with apache/nginx
+### Generate the static html page and deploy with apache/nginx
 
 `git clone git@github.com:amiv-eth/amiv-website.git`
 
