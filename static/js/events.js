@@ -3,7 +3,8 @@ translation = {
     'register_date': {'de': "<b>Anmeldedatum</b>", 'en': '<b>register date</b>'},
     'signup_count': {'de': '<b>Freie Plätze</b>', 'en': '<b>free spots</b>'},
     'signup': {'de': 'Anmelden', 'en': 'signup'},
-    'description': {'de': '<b>Beschreibung</b>', 'en': '<b>Description</b>'}
+    'description': {'de': '<b>Beschreibung</b>', 'en': '<b>Description</b>'},
+    'close': {'de': 'Schliessen', 'en': 'Close'}
 };
 
 $( document ).ready(function() {
@@ -34,7 +35,7 @@ $( document ).ready(function() {
 	    + '<h4 class="modal-title">Modal title</h4></div>'
 	    + '<div class="modal-body"></div>'
 	    + '<div class="modal-footer">'
-            + '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>'
+            + '<button type="button" class="btn btn-default" data-dismiss="modal">' + translation['close'][lang] + '</button>'
             + '<button type="button" class="btn btn-primary" id="modal_signup_button">' + translation['signup'][lang] + '</button>'
 	    + '</div>'
 	    + '</div><!-- /.modal-content -->'
