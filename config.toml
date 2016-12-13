@@ -21,7 +21,8 @@ canonifyurls = true
   # (relative to /static folder)
   custom_css = [""]
   custom_js = ["js/login.js","js/lib/amivcore.js"]
-  api_url = "http://192.168.1.100"
+  # API URL in the form of http://domain.topdomain (without last slash)
+  api_url = "https://amiv-apidev.vsos.ethz.ch"
   spec_url = "/js/lib/spec.json"
   cover = "images/banner.jpg"
 
