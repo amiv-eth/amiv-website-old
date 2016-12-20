@@ -42,11 +42,14 @@ $( document ).ready(function() {
     $(".post-content").append(modal_html);
     
     // get all events form the api
-    // where show website = true and sorted by start_time
-    // d.toISOString returns the miliseconds too. These are cut with slice(0, -5) and then the "Z" is readded at the end 
-    var d = new Date(); 
-    request = api + '/events?where={"time_advertising_start": {"$lte": "' + d.toISOString().slice(0,-5) + 'Z"}, "time_advertising_end": {"$gte": "' + d.toISOString().slice(0, -5) + 'Z"}, "show_website":true}&sort=-priority,time_advertising_start';
-    $.get(request, function(data) {
+    amivcore.events.GET({
+	'where': {
+	    "time_advertising_start": {"$lte": amivcore.getTime()},
+	    "time_advertising_end": {"$gte": amivcore.getTime()},
+	    "show_website":true
+	},
+	'sort': "-priority,time_advertising_start"
+    }, function(data) {
 	events = data["_items"];
 	
 	printevents(0);
