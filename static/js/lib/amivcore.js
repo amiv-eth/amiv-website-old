@@ -90,10 +90,20 @@
             return window.localStorage.getItem('glob-' + cname);
         }
 
-        /** 
-	 * Make Request
+	/**
+	 * Remove variable in localStorage
+	 * @param {string} cname
+	 */
+	function remove(cname) {
+	    if (window.localStorage.getItem('gloc-' + cname) === null)
+		window.localStorage.removeItem('glob-' + cname);
+	}
+
+
+	 /**
+	 * Make JSON request with all request parameters in attr
 	 * @constructor
-	 * @param {} attr
+	 * @param {} attr - all request parameters (attr.path, attr.data, attr.method ...)
 	 * @param {} callback
 	 */
         function req(attr, callback) {
@@ -102,9 +112,41 @@
             };
             $.ajax({
                 url: core.lib.api_url + attr.path,
-                data: attr.data,
+                data: JSON.stringify(attr.data),
                 method: attr.method,
-                dataType: 'json',
+                dataType: "json",
+                timeout: core.lib.req_time_out,
+                headers: attr.headers,
+                error: function(res) {
+                    if (core.lib.show_errors) console.log(res);
+                    callback(res);
+                },
+            }).done(function(res) {
+                callback(res);
+            });
+        }
+
+        /**
+	 * Make FormData request with all request parameters in attr
+	 * @constructor
+	 * @param {} attr - all request parameters (attr.path, attr.data, attr.method ...)
+	 * @param {} callback
+	 */
+        function reqFormData(attr, callback) {
+            callback = callback || function(msg) {
+                console.log(msg);
+            };
+	    // put the json object into form-data
+	    var form = new FormData();
+	    for (var key in attr['data'])
+		form.append(key, attr['data'][key]);
+            $.ajax({
+                url: core.lib.api_url + attr.path,
+                data: form,
+                method: attr.method,
+                dataType: "json",
+		contentType: false,
+		processData: false,
                 timeout: core.lib.req_time_out,
                 headers: attr.headers,
                 error: function(res) {
@@ -120,11 +162,11 @@
 	 * Make Function
 	 * @constructor
 	 * @param {string} domain
-	 * @param {string} m
+	 * @param {string} m - method
 	 */
         function makeFunc(domain, m) {
             return function(attr, callback) {
-                attr = attr || {};
+                attr = attr || {}; // if attr does not exist use empty object
                 var curLib = {}
                 for (var curAttr in attr['data']) {
                     var curAttrType = lib.getParamType(domain, curAttr);
@@ -146,6 +188,23 @@
                     curLink += '/{_id}';
                 }
 
+		// handle where, sort, projection, embedded
+		var urlParams = "";
+		var urlTypes = ['where', 'sort', 'projection', 'embedded'];
+		if (m === 'GET') {
+		    for (var curUrlType of urlTypes) {
+			if (attr[curUrlType] != undefined) {
+			    urlParams += ((urlParams != "") ? "&" + curUrlType + "=": curUrlType + "=");
+			    if (typeof attr[curUrlType] === 'object')
+				urlParams += JSON.stringify(attr[curUrlType]);
+			    else
+				urlParams += attr[curUrlType];
+			}
+		    }
+		}
+		// append urlParams
+		curPath += "?" + urlParams;
+
                 if (get('cur_token') != null)
                     hdr['Authorization'] = 'Basic ' + btoa(get('cur_token') + ':');
 
@@ -155,27 +214,37 @@
                             if (lib[domain]['methods'][m][curLink]['params'][param]['required'] == true)
                                 if (curLib[lib[domain]['methods'][m][curLink]['params'][param]['name']] == undefined)
                                     return 'Error: Missing ' + lib[domain]['methods'][m][curLink]['params'][param]['name'];
-                    hdr['Content-Type'] = 'application/json';
-                    curLib = JSON.stringify(curLib);
+                    // hdr['Content-Type'] = 'application/json';
+                    // curLib = JSON.stringify(curLib);
                 }
-                req({
-                    path: curPath,
-                    method: m,
-                    data: curLib,
-                    headers: hdr,
-                }, callback);
+                if (m != 'POST' && m != 'PATCH') {
+		    req({
+			path: curPath,
+			method: m,
+			data: curLib,
+			headers: hdr,
+                    }, callback);
+		}
+		else {
+		    reqFormData({
+			path: curPath,
+			method: m,
+			data: curLib,
+			headers: hdr,
+                    }, callback);
+		}
                 return true;
             };
         }
 
 	/**
-	 * AJAX Function
+	 * Read spec.json and set all needed parameters
 	 * @constructor
 	 */
         $.ajax({
             url: core.lib.spec_url,
             dataType: 'json',
-            timeout: 5000,
+            timeout: core.lib.req_time_out,
             success: function(d) {
                 var data = d['domains'];
                 for (var domain in data) {
@@ -195,7 +264,7 @@
             },
             error: function(d) {
                 console.log('Cannot reach initialization spec: ' + core.lib.spec_url);
-                console.log(d);
+                console.error(d);
             }
         });
 
@@ -235,8 +304,11 @@
         /** 
 	 * Get parameter type
 	 * @constructor
-	 * @param {} dom
-	 * @param {} param
+	 * @param {string} dom
+	 * @param {string} param
+	 * @example 
+	 * // returns type of field "_id" of resource "users"
+	 * amivcore.getParamType("users", "_id")
 	 */
         lib.getParamType = function(dom, param) {
             var tmp = 'none';
@@ -252,12 +324,28 @@
             return tmp;
         }
 
+	/**
+	 * Get the time converted to the format the api understands
+	 * @param {Date} d -  date. If none is given then the NOW is used
+	 * @example
+	 * amivcore.getTime() // "2016-12-20T14:12:55Z"
+	 * amivcore.getTime(new Date(2011, 0, 1, 2, 3, 4, 567)) // "2011-01-01T01:03:04Z"
+	 */
+	lib.getTime = function(d) {
+	    d = d || new Date();
+	    return core.adapter['datetime'](d.toISOString());
+	}
+
         /** 
 	 * Get the etag
 	 * @constructor
 	 * @param {} curDomain
 	 * @param {} curId
 	 * @param {} callback
+	 * @example 
+	 * amivcore.getEtag("users", amivcore.cur_user, function(res) {
+	 *     console.log(res);
+	 * });
 	 */
         lib.getEtag = function(curDomain, curId, callback) {
             return lib[curDomain].GET({
@@ -295,19 +383,19 @@
                     'Content-Type': 'application/json',
                 },
             }, function(msg) {
-                var reqVar = ['token', 'user_id', 'id'];
+                var reqVar = ['token', 'user', '_id'];
                 for (var i in reqVar) {
                     lib['cur_' + reqVar[i]] = msg[reqVar[i]];
                 }
                 if (msg['_status'] == 'OK') {
-                    set('cur_token_id', msg['id'], 1);
+                    set('cur_token_id', msg['_id'], 1);
                     set('cur_token', msg['token'], 1);
-                    set('cur_user_id', msg['user_id'], 1);
+                    set('cur_user_id', msg['user'], 1);
                     callback(true);
                 } else {
-                    set('cur_token_id', null);
-                    set('cur_token', null);
-                    set('cur_user_id', null);
+                    remove('cur_token_id');
+                    remove('cur_token');
+                    remove('cur_user_id');
                     callback(false);
                 }
             });
@@ -322,9 +410,9 @@
             lib.sessions.DELETE({
                 id: get('cur_token_id')
             }, function(res) {
-                set('cur_token', null);
-                set('cur_token_id', null);
-                set('cur_user_id', null);
+                remove('cur_token');
+                remove('cur_token_id');
+                remove('cur_user_id');
             });
         }
 
@@ -351,11 +439,13 @@
         }
 
         /**
-	 *  Get the necessary field for specific requests
-	 *  @constructor
-	 *  @param {} domain
-	 *  @param {} type
-	 *  @param {} wId
+	 * Get the necessary field for specific requests
+	 * @constructor
+	 * @param {} domain - resource eg. "/users"
+	 * @param {} type - HTTP request type eg. "PATCH"
+	 * @param {boolean} wId - with id eg. "/users/$id"
+	 * @example
+	 * amivcore.getRequiredFields("users", "POST", false)
 	 */
         lib.getRequiredFields = function(domain, type, wId) {
             var curTree;
