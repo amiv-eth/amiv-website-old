@@ -20,7 +20,7 @@ canonifyurls = true
   # (relative to /static folder)
   custom_css = [""]
   custom_js = ["js/lib/amivcore.js", "js/login.js"]
-  api_url = "http://192.168.1.100"
+  api_url = "https://amiv-apidev.vsos.ethz.ch"
 
 # SIDE MENU IN GERMAN
 
