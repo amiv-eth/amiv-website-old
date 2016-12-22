@@ -27,7 +27,7 @@
       {{ end }}
       {{ if isset .Params "js" }}
       {{ range .Params.js }} 
-      <script src="{{ $.Site.BaseURL }}js/{{ . }}.js"></script>
+      <script src="{{ $.Site.BaseURL }}js/{{ . }}"></script>
       {{ end }}
       {{ end }}
     </head>
