@@ -1,7 +1,7 @@
 baseurl = "http://amiv.com/"
 title = "AMIV Homepage"
 languageCode = "de-CH"
-theme = "themeAMIV"
+theme = "amiv-theme"
 
 DefaultContentLanguage = "de"
 
@@ -62,6 +62,14 @@ languageName = "Deutsch"
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "hopo-mavt"
   parent = "studies"
+[[languages.de.menu.main]]
+  url = "/studies/hopo-itet"
+  name = "Hochschulpolitik ITET"
+  weight = 20
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  identifier = "hopo-itet"
+  parent = "studies"
+
 [[languages.de.menu.main]]
   url = "/studydocs/"
   name = "Studienunterlagen"
