@@ -7,24 +7,29 @@ translation = {
 };
 
 $( document ).ready(function() {
-    //append the divs to the content
+    //append wrapper
+    var event_combined = "<div class='card-columns'>";
+    //append the event cards
     for (var i = 0; i < 10; i++) {
-	var event_html = "<h3 id='title" + i + "'></h3>"
-	    + "<div class='pure-g'>" + "<div class='pure-u-1-2'>"
-	    + "<p id='descr" + i + "'></p>"
-	    + "<p id='date" + i + "'></p>"
-	    + "<p id='reg_date" + i + "'></p>"
-	    + "<p id='signup_count" + i + "'></p>"
-	    + "<button id='signup" + i + "' class='pure-button'>"
-	    + translation['signup'][lang] + "</button></div>"
-	    + "<div class='pure-u-1-2'>"
-	    + "<img class='pure-img' id='poster" + i + "'>"
-	    + "</div></div>";
+	var event_html = "<img class='card-img-top img-fluid' id='poster" + i + "'>"
+	    + "<div class='card-block'>"
+	    + "<h4 class='card-title' id='title" + i + "'></h3>"
+	    + "<p class='card-text' id='descr" + i + "'></p>"
+	    + "<p class='card-text' id='date" + i + "'></p>"
+	    + "<p class='card-text' id='reg_date" + i + "'></p>"
+	    + "<p class='card-text' id='signup_count" + i + "'></p>"
+	    + "</div><div class='card-block'>"
+	    + "<button id='signup" + i + "' class='btn btn-primary'>"
+	    + translation['signup'][lang] + "</button></div>";
 	
-	event_html = "<div id='event_div" + i + "'>" + event_html + "</div>";
-	$(".content").append(event_html);
+	event_html = "<div class='card' id='event_div" + i + "'>"
+	    + event_html
+	    + "</div>";
+	event_combined += event_html;
     }
-    //append modal to content
+    event_combined += "</div>";
+    $(".content").append(event_combined);
+    //append signup modal to content
     var modal_html  = '<div class="modal" tabindex="-1" role="dialog" id="modal_signup" data-backdrop="false">'
 	+ '<div class="modal-dialog" role="document">'
 	+ '<div class="modal-content">'
@@ -39,7 +44,7 @@ $( document ).ready(function() {
 	+ '</div><!-- /.modal-content -->'
 	+ '</div><!-- /.modal-dialog -->'
 	+ '</div><!-- /.modal -->';
-    $(".post-content").append(modal_html);
+    $(".content").append(modal_html);
     
     // get all events form the api
     amivcore.events.GET({
