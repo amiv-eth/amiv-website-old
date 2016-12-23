@@ -1,24 +1,29 @@
-.navbar-inverse .navbar-brand
+.navbar-brand
+{
+    height: 100%;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-dark .navbar-nav .nav-link
 {
     color: #ffffff;
+    line-height: 40px;
 }
-.navbar-inverse .navbar-nav>li>a
+.bg-inverse
 {
-    color: #ffffff;
-}
-.navbar-inverse
-{
-    background-color: #1f2d54;
+    background-color: #1f2d54!important;
     border-color: #1f2d54;
 }
-body { padding-top: 70px; }
-.navbar-default {
-  height: 80px;
+.navbar
+{
+    height: 70px;
 }
-
-.navbar-default .navbar-nav > li > a,
-.navbar-brand {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 80px;
+div[role=main]
+{
+    padding-top: 10px;
+}
+body
+{
+    padding-top: 30px;
 }

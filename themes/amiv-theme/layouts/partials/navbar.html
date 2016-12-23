@@ -1,43 +1,25 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-full navbar-dark bg-inverse">
+  <div class="container" style="height: 100%">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-	<img src="{{ .Site.BaseURL }}/img/LOGO_300dpi-CopperRed.png" style="height:100%;">
-      </a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ .Site.BaseURL }}/img/logo_no_text.svg" style="height:100%;">
+    </a>
+    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-toggleable-md" id="navbarResponsive">
       <ul class="nav navbar-nav">
 	{{ range .Site.Menus.main }}
 	{{ if .HasChildren }}
-	<li class="dropdown">
-	  <a href="{{ .URL | absLangURL }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Pre }}{{ .Name }}<span class="caret"></span></a>
-	  <ul class="dropdown-menu">
+	<li class="nav-item dropdown">
+	  <a class="nav-link dropdown-toggle" href="{{ .URL | absLangURL }}" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Pre }}{{ .Name }}</a>
+
+	  <div class="dropdown-menu">
 	    {{ range .Children }}
-	    {{ if .HasChildren }}
-	    <li class="dropdown-submenu">
-	      <a href="#" tabindex="-1">{{ .Name }}</a>
-	      <ul class="dropdown-menu">
-		{{ range .Children }}
-		<li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-		{{ end }}
-	      </ul>
-	    </li>
-	    {{ else }}
-	    <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+	    <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
 	    {{ end }}
-	    {{ end }}
-	  </ul>
+	  </div>
 	</li>
 	{{ else }}
-	<li><a href="{{ .URL | absLangURL }}">{{ .Pre }}{{ .Name }}</a></li>
+	<li class="nav-item"><a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Pre }}{{ .Name }}</a></li>
 	{{ end }}
 	{{ end }}
       </ul>
