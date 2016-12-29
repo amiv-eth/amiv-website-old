@@ -22,7 +22,7 @@
 	lang = {{ .Lang }};
       </script>
       {{ range .Site.Params.custom_js }}
-      <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+      <script src="{{ $.Site.BaseURL }}/{{ . }}"></script>
       {{ end }}
       {{ if isset .Params "js" }}
       {{ range .Params.js }} 
