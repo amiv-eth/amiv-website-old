@@ -1,0 +1,29 @@
+.navbar-brand
+{
+    height: 100%;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #ffffff;
+    line-height: 40px;
+}
+.bg-inverse
+{
+    background-color: #1f2d54!important;
+    border-color: #1f2d54;
+}
+.navbar
+{
+    height: 70px;
+}
+div[role=main]
+{
+    padding-top: 10px;
+}
+body
+{
+    padding-top: 30px;
+}

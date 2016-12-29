@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on AMIV Homepage</title>
+    <link>https://amiv-eth.github.io/amiv-website/events/index.xml</link>
+    <description>Recent content in Events on AMIV Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-CH</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 10 Dec 2016 12:51:22 +0100</lastBuildDate>
+    <atom:link href="https://amiv-eth.github.io/amiv-website/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>events</title>
+      <link>https://amiv-eth.github.io/amiv-website/events/</link>
+      <pubDate>Sat, 10 Dec 2016 12:51:22 +0100</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/events/</guid>
+      <description>
+
+&lt;h1 id=&#34;events&#34;&gt;Events&lt;/h1&gt;
+
+&lt;p&gt;This page lists the events ordered by date.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

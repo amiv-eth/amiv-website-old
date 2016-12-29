@@ -2,17 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://amiv.com/en/</loc>
+    <loc>https://amiv-eth.github.io/amiv-website/en/events/</loc>
+    <lastmod>2016-12-10T12:51:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/about/protocols/</loc>
     <lastmod>2016-12-07T14:37:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amiv.com/en/about/protocols/</loc>
-    <lastmod>2016-12-07T14:37:10+01:00</lastmod>
+    <loc>https://amiv-eth.github.io/amiv-website/en/career/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://amiv.com/en/about/</loc>
+    <loc>https://amiv-eth.github.io/amiv-website/en/ersti/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/studies/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/studydocs/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/services/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/services/studentforaday/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/</loc>
+    <lastmod>2016-12-10T12:51:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/about/</loc>
+    <lastmod>2016-12-07T14:37:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/career/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/ersti/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/events/</loc>
+    <lastmod>2016-12-10T12:51:22+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/services/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/studies/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/studydocs/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amiv-eth.github.io/amiv-website/en/about/</loc>
   </url>
   
 </urlset>

@@ -2,20 +2,188 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AMIV Homepage</title>
-    <link>http://amiv.com/index.xml</link>
+    <link>https://amiv-eth.github.io/amiv-website/index.xml</link>
     <description>Recent content on AMIV Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-CH</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 07 Dec 2016 14:37:10 +0100</lastBuildDate>
-    <atom:link href="http://amiv.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2016 20:31:44 +0100</lastBuildDate>
+    <atom:link href="https://amiv-eth.github.io/amiv-website/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hopo mavt.de</title>
+      <link>https://amiv-eth.github.io/amiv-website/studies/hopo-mavt/</link>
+      <pubDate>Sat, 10 Dec 2016 20:31:44 +0100</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/studies/hopo-mavt/</guid>
+      <description>
+
+&lt;h1 id=&#34;hochschulpolitik-am-d-mavt&#34;&gt;Hochschulpolitik am D-MAVT&lt;/h1&gt;
+
+&lt;p&gt;Das HoPoMAVT-Team hat die Aufgabe, alle Studenten am D-MAVT gegenüber dem D-MAVT zu vertreten. Die dabei wichtigsten Anlässe sind die Departementskonferenzen (DK, das höchste Gremium des Departements), die Unterrichtskommissionen (UK, hier werden wichtige Themen zur Lehre besprochen) und die Notenkonferenzen (wir schauen den Professoren und Assistenten auf die Finger). Das mindestens fünfköpfige HoPoMAVT-Team wird am Anfang jedes Semesters an der GV gewählt. Dabei ist es wichtig, dass jedes Studienjahr im Team vertreten sein sollte. Sie sind sowohl die Vertreter als auch die primären Ansprechpartner für ihre Stufen. Das Team trifft sich regelmässig und bespricht die aktuellen Anliegen. So werden die Interessen der Studenten so gut wie möglich vertreten. Zudem steht das HoPo-MAVT im ständigen Austausch mit den Hochschulpolitikern vom VSETH und nehmen in diversen Arbeitsgruppen etc. teil. Des weiteren organisiert das HoPo-Team verschiedene Dienstleistungen wie Prüfungsvorbereitungskurse, verwaltet die Studienunterlagen oder organisiert verschiedene Aktionen zur Verbesserung der Studienbedingungen.&lt;/p&gt;
+
+&lt;h2 id=&#34;aktuelles-hopo-team&#34;&gt;Aktuelles HoPo-Team&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alice Mylaeus- Vorstand&lt;/li&gt;
+&lt;li&gt;Jonas Peschel&lt;/li&gt;
+&lt;li&gt;Nicolas Degen&lt;/li&gt;
+&lt;li&gt;Bastian Wohlfender&lt;/li&gt;
+&lt;li&gt;Sandro Luh&lt;/li&gt;
+&lt;li&gt;Fabian Grigris&lt;/li&gt;
+&lt;li&gt;Moritz Zimmermann&lt;/li&gt;
+&lt;li&gt;Clara Baumhauer&lt;/li&gt;
+&lt;li&gt;Cliff Li&lt;/li&gt;
+&lt;li&gt;Andreas Michalski&lt;/li&gt;
+&lt;li&gt;Joachim Grunder&lt;/li&gt;
+&lt;li&gt;Leo Baumann&lt;/li&gt;
+&lt;li&gt;Alatur Nikhilesh&lt;/li&gt;
+&lt;li&gt;David Vogt&lt;/li&gt;
+&lt;li&gt;Christoph Thormeier&lt;/li&gt;
+&lt;li&gt;Richard Droste&lt;/li&gt;
+&lt;li&gt;Maximilian Paurat&lt;/li&gt;
+&lt;li&gt;David Höller&lt;/li&gt;
+&lt;li&gt;Bastian Baselt&lt;/li&gt;
+&lt;li&gt;Martin Reick&lt;/li&gt;
+&lt;li&gt;Katerina Pratsinis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;semestersprecher&#34;&gt;Semestersprecher&lt;/h2&gt;
+
+&lt;p&gt;Semestersprecher sind die Vertreter der Stuendenten eines Jahrganges im Bereich Hochschulpolitik. Sie dienen als Anlaufstelle für die Verbesserungsvorschläge der Studenten und besprechen diese dann mit den jeweiligen Dozenten. Sie initiieren auch Semesterevaluationen in der Mitte des Semesters, damit frühzeitig Feedback an die Professoren weitergegeben werden kann. Gerne dürft ihr eure zuständigen Semestersprecher ansprechen oder anschreiben, wenn ihr in gewissen Fächern Verbesserungsvorschläge habt oder wenn ihr irgendwelche Kritikpunkte anzubringen habt.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-jahr-bachelor&#34;&gt;1. JAHR BACHELOR&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Felix Fricke&lt;/li&gt;
+&lt;li&gt;Julius Wanner&lt;/li&gt;
+&lt;li&gt;Chiara Baum&lt;/li&gt;
+&lt;li&gt;Corentin Pfister&lt;/li&gt;
+&lt;li&gt;Tiago Ogris&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2-jahr-bachelor&#34;&gt;2. JAHR BACHELOR&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alice Mylaeus&lt;/li&gt;
+&lt;li&gt;Alba Proffe&lt;/li&gt;
+&lt;li&gt;Clara Baumhauer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3-jahr-bachelor&#34;&gt;3. JAHR BACHELOR&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jonas Peschel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;master&#34;&gt;MASTER&lt;/h3&gt;
+
+&lt;h2 id=&#34;departementskonferenz-dk&#34;&gt;Departementskonferenz (DK)&lt;/h2&gt;
+
+&lt;p&gt;Die Departementskonferenz ist das wichtigste Gremium im Maschinenbau. Hier werden alle Themen des Departements final besprochen und zur Abstimmung gebracht. Dies beinhaltet Belange zur Lehre, Forschung, Professsuren, Raumaufteilungen und viele weitere Belange. Die Studenten haben hier sieben permanente Vertreter.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alba Proffe&lt;/li&gt;
+&lt;li&gt;Christoph Tormeyer&lt;/li&gt;
+&lt;li&gt;Fabian Grigris&lt;/li&gt;
+&lt;li&gt;Jonas Peschel&lt;/li&gt;
+&lt;li&gt;Moritz Zimmermann&lt;/li&gt;
+&lt;li&gt;Pavlos Papadrimitriou&lt;/li&gt;
+&lt;li&gt;Alice Mylaeus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;unterrichtskommission-uk&#34;&gt;Unterrichtskommission (UK)&lt;/h2&gt;
+
+&lt;p&gt;In der Unterrrichtskommission werden alle Themen der Lehre besprochen. Hierbei haben Studenten, Doktoranden und Professoren  je zwei Vertreter.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jonas Peschel&lt;/li&gt;
+&lt;li&gt;Sandro Luh&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;raumkommission&#34;&gt;Raumkommission&lt;/h2&gt;
+
+&lt;p&gt;In der Raumkommission werden lanfristig Themen der Raumplanung besprochen. Die Studenten haben hier einen Vertreter.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fabian Grigris&lt;/li&gt;
+&lt;li&gt;Organisatoren PVKs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prüfungsvorbereitungskurse sind ein Service des AMIV, der Studenten helfen soll, die Prüfungsblöcke gut zu bestehen. Hierfür werden zuerst die besten Assistenten ermittelt, welche vor den Prüfungssessionen die wichtigsten Inhalte in 2-5 tägigen Kursen vermitteln. Üblicherweise organisieren pro Semester zwei Studenten die PVKs.&lt;/p&gt;
+
+&lt;h2 id=&#34;pvks-basisjahr&#34;&gt;PVKs Basisjahr&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alice Mylaeus&lt;/li&gt;
+&lt;li&gt;Alba Proffe&lt;/li&gt;
+&lt;li&gt;Clara Baumhauer&lt;/li&gt;
+&lt;li&gt;Andreas Michalski&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pvks-3-semester&#34;&gt;PVKs 3. Semester&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anna Dai&lt;/li&gt;
+&lt;li&gt;Valentin Hartmann&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kontakt&#34;&gt;Kontakt&lt;/h2&gt;
+
+&lt;p&gt;Das HoPoMAVT Team erreicht ihr unter hopo-mavt@amiv.ethz.ch. Gerne könnt ihr jedoch die einzelnen Mitglieder auch im Studienalltag ansprechen oder uns im Vorstandsbüro im CAB E37 aufsuchen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://amiv-eth.github.io/amiv-website/events/</link>
+      <pubDate>Sat, 10 Dec 2016 12:51:22 +0100</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/events/</guid>
+      <description>
+
+&lt;h1 id=&#34;events&#34;&gt;Events&lt;/h1&gt;
+
+&lt;p&gt;This page lists the events ordered by date.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Studieninformation</title>
+      <link>https://amiv-eth.github.io/amiv-website/studies/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/studies/</guid>
+      <description>
+
+&lt;h1 id=&#34;hochschulpolitik-und-studieninfos&#34;&gt;Hochschulpolitik und Studieninfos&lt;/h1&gt;
+
+&lt;p&gt;Auf diesen Seiten erfährst du über die hochschulpolitischen Tätigkeiten des AMIV und erhältst Informationen, Stundenpläne und Links zu den einzelnen Fächern in deinem Studiengang. Zudem enthalten die FAQs Antworten auf viele oft gestellte Fragen - Angefangen mit Infos zum Studienwechsel über eine Liste der Computerräume bis hin zur Anleitung, wie du Nachts in ETH Lernräume kommst.&lt;/p&gt;
+
+&lt;h2 id=&#34;vor-dem-studium&#34;&gt;Vor dem Studium&lt;/h2&gt;
+
+&lt;h3 id=&#34;maschinenbau-elektrotechnik-oder-informatik&#34;&gt;Maschinenbau, Elektrotechnik oder Informatik?&lt;/h3&gt;
+
+&lt;p&gt;Zusammen mit dem Fachverein der Informatikstudierenden informieren wir auf den Informationstagen der ETH die Maturanden über die Unterschiede zwischen Elektrotechnik, Maschinenbau und Informatik. Die Slides sind hier abrufbar:&lt;/p&gt;
+
+&lt;h3 id=&#34;vorlesungen-auswählen&#34;&gt;Vorlesungen Auswählen&lt;/h3&gt;
+
+&lt;p&gt;Für die Fächerbelegung kann die Evaluationsübersicht der vergangenen Semester eine Entscheidungshilfe sein:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mavt.ethz.ch/education/lehrevaluation&#34;&gt;https://www.mavt.ethz.ch/education/lehrevaluation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;achtung&#34;&gt;Achtung!&lt;/h2&gt;
+
+&lt;p&gt;Der AMIV versucht, diese Seiten so aktuell und korrekt wie möglich zu halten. Vor allem die Stundenpläne und die Prüfungsbedingungen enthalten keine offiziellen und verbindlichen Informationen sondern sollen euch einen groben Überblick ermöglichen. Verbindliche Informationen erhaltet ihr auf den jeweiligen Vorlesungswebseiten oder im Vorlesungsverzeichnis der ETH&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>YOOOO PROTOCOLS</title>
-      <link>http://amiv.com/about/protocols/</link>
+      <link>https://amiv-eth.github.io/amiv-website/about/protocols/</link>
       <pubDate>Wed, 07 Dec 2016 14:37:10 +0100</pubDate>
       
-      <guid>http://amiv.com/about/protocols/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/about/protocols/</guid>
       <description>
 
 &lt;h1 id=&#34;protokolle&#34;&gt;PROTOKOLLE&lt;/h1&gt;
@@ -24,19 +192,19 @@
     
     <item>
       <title>index</title>
-      <link>http://amiv.com/</link>
+      <link>https://amiv-eth.github.io/amiv-website/</link>
       <pubDate>Wed, 07 Dec 2016 14:37:10 +0100</pubDate>
       
-      <guid>http://amiv.com/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://amiv.com/career/</link>
+      <link>https://amiv-eth.github.io/amiv-website/career/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/career/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/career/</guid>
       <description>
 
 &lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
@@ -71,10 +239,10 @@
     
     <item>
       <title>About</title>
-      <link>http://amiv.com/ersti/</link>
+      <link>https://amiv-eth.github.io/amiv-website/ersti/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/ersti/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/ersti/</guid>
       <description>
 
 &lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
@@ -109,10 +277,10 @@
     
     <item>
       <title>About</title>
-      <link>http://amiv.com/events/</link>
+      <link>https://amiv-eth.github.io/amiv-website/studydocs/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/events/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/studydocs/</guid>
       <description>
 
 &lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
@@ -146,125 +314,190 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://amiv.com/services/</link>
+      <title>Dienste</title>
+      <link>https://amiv-eth.github.io/amiv-website/services/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/services/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/services/</guid>
       <description>
 
-&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;h1 id=&#34;dienste&#34;&gt;Dienste&lt;/h1&gt;
 
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;p&gt;Der AMIV bietet seinen Mitgliedern neben seinen Kernkompetenzen wie der Hochschulpolitik, des Aufenthaltsraums, der Firmenkontakte sowie der Kulturevents auch eine Reihe von zusätzlichen Dienstleistungen.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
-&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;p&gt;Angebot Broschüre: &lt;a href=&#34;https://www.amiv.ethz.ch/system/files/file_upload/3751/AMIV_Angebote.pdf&#34;&gt;https://www.amiv.ethz.ch/system/files/file_upload/3751/AMIV_Angebote.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://amiv.com/studies/</link>
+      <title>Student for a Day</title>
+      <link>https://amiv-eth.github.io/amiv-website/services/studentforaday/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/studies/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/services/studentforaday/</guid>
       <description>
 
-&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;h1 id=&#34;student-for-a-day&#34;&gt;Student for a Day&lt;/h1&gt;
 
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
-&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;iframe src=&#34;https://spreadsheets.google.com/viewform?formkey=dHZ5eXVURDhLU3A5U0tkanFTMmstLWc6MQ&#34; width=&#34;100%&#34; height=&#34;1600px&#34; style=&#34;border:0&#34; name=&#34;google_spreadsheet&#34; id=&#34;google_spreadsheet&#34;&gt;Das IFrame konnte nicht geladen werden!&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://amiv.com/studydocs/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://amiv-eth.github.io/amiv-website/services/vermietung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/studydocs/</guid>
-      <description>
+      <guid>https://amiv-eth.github.io/amiv-website/services/vermietung/</guid>
+      <description>&lt;p&gt;NOT FINISH YET
++++
+title = &amp;ldquo;Der AMIV&amp;rdquo;
+sidemenu = &amp;ldquo;true&amp;rdquo;
+description = &amp;ldquo;Akademische Maschinen- und Elektroingenieuren Verein an der ETH Zürich&amp;rdquo;
+js = [&amp;ldquo;about&amp;rdquo;,&amp;ldquo;eventsignups&amp;rdquo;]
++++&lt;/p&gt;
 
-&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;p&gt;#Vermietung&lt;/p&gt;
 
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;p&gt;Der AMIV vermietet diverse Gegenstände an Mitglieder und an andere Fachvereine und ETH Institutionen.
+##Industriegrill&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Der AMIV besitzt zwei grosse Industriegrills mit je 6 Flammen. Anstelle des Rostes sind auch zwei grosse Pfannen vorhanden.
+###Mietkonditionen&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
-&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pro Grill und Event: CHF 50.-&lt;/li&gt;
+&lt;li&gt;Gas und Reinigungsmaterial inklusive&lt;/li&gt;
+&lt;li&gt;Falls die Grills nicht sauber zurückkommen, wird ein Strafbetrag von bis zur doppelten Mietgebühr fällig (je nach Reinigungsaufwand)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;###Bei Gebrauch beachten&lt;/p&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die Verschlüsse mit der Gasflasche nur von Hand anziehen, ohne Zange. Die Verwendung einer Zange ist mit den neuen Dichtungen nicht mehr nötig.&lt;/li&gt;
+&lt;li&gt;Beim An- und Abschliessen der Gasflaschen aufpassen, dass die Dichtung am Schlauch/Druckminderer bleibt. Sollte keine Dichtung vorhanden sein, bitte beim Kulturvorstand nach Ersatz fragen.&lt;/li&gt;
+&lt;li&gt;Gasflaschen bitte ganz leer machen und dann entsprechend markieren (z.B. Klebeband mit Aufschrift &amp;ldquo;Leer&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Poker-Equipement&lt;/p&gt;
+
+&lt;p&gt;Der AMIV hat diverses Poker-Equipement und vermietet dieses intern wie auch extern:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Koffer
+
+&lt;ul&gt;
+&lt;li&gt;Koffer 1: 1000 Chips (200 weiss, 250 rot, 200 blau, 200 grün, 150 schwarz)&lt;/li&gt;
+&lt;li&gt;Koffer 2: 1000 Chips (200 weiss, 250 rot, 200 blau, 200 grün, 150 schwarz)&lt;/li&gt;
+&lt;li&gt;Koffer 3: 750 Chips (190 weiss, 200 rot, 130 blau, 130 grün, 100 schwarz)&lt;/li&gt;
+&lt;li&gt;Koffer 4: 750 Chips (190 weiss, 200 rot, 130 blau, 130 grün, 100 schwarz)&lt;/li&gt;
+&lt;li&gt;Koffer 5: 500 Chips (110 weiss, 110 rot, 110 blau, 90 grün, 80 schwarz)&lt;/li&gt;
+&lt;li&gt;Koffer 6: 500 Chips (150 weiss, 150 rot, 50 blau, 100 grün, 50 schwarz)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;10 Decks gute Plastikkarten&lt;/li&gt;
+&lt;li&gt;10 Tischauflagen 200x92cm, 13kg schwer, passend für 8 Leute&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;###Mietkonditionen&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pro 500 Chips und Event CHF 20.-
+pro Tischauflage und Event CHF 20.-
+pro Deck hochwertige Plastikkarten und Event CHF 10.-
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Falls die Chips nach dem Event wieder richtig sortiert werden müssen, wird nochmals der gleiche Betrag fällig, wie für die Miete.
+Fehlendes / schmuddliges Material&lt;/p&gt;
+
+&lt;p&gt;Falls das Material schmuddlig oder inkomplett zurück kommt, wird je nach Fall Wertminderung oder Ersatz verlangt.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Chips: CHF 0.50 pro Stück
+Deck Plastikkarten: CHF 20.-
+Tischauflagen: je nach aktuellem Preis; ca. CHF 100.- + Versand
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Blockrocker&lt;/p&gt;
+
+&lt;p&gt;Der AMIV besitzt einige Blockrocker, die für 20Fr pro Tag gemietet werden können.
+Schlauchboote&lt;/p&gt;
+
+&lt;p&gt;Es können bis zu 4 Schlauchboote für je CHF 25,- pro Event gemietet werden. Beschädigte Boote werden nach Marktwert verrechnet.
+Mietanfragen&lt;/p&gt;
+
+&lt;p&gt;Mietanfragen bitte an vermietung@amiv.ethz.ch richten. AMIV-Events haben Priorität.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aufenthaltsraum</title>
+      <link>https://amiv-eth.github.io/amiv-website/services/aufenthaltsraum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/services/aufenthaltsraum/</guid>
+      <description>&lt;p&gt;Aufenthaltsraum im &lt;strong&gt;CAB E31&lt;/strong&gt; steht allen Studenten des AMIV (MAVT &amp;amp; ITET), VIS (INFK) und VMP (MATH &amp;amp; PHYS) unentgeltlich zur Verfügung.&lt;/p&gt;
+
+&lt;p&gt;##Das hat es alles&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4 Sofaecken&lt;/li&gt;
+&lt;li&gt;1 Spender mit Quellwasser (gekühlt und heiss für Tee)&lt;/li&gt;
+&lt;li&gt;2 Getränkeautomat&lt;/li&gt;
+&lt;li&gt;1 Kaffeautomat&lt;/li&gt;
+&lt;li&gt;1 Mikrowelle&lt;/li&gt;
+&lt;li&gt;2 Töggelikasten&lt;/li&gt;
+&lt;li&gt;1 Billardtisch&lt;/li&gt;
+&lt;li&gt;55&amp;rdquo; grosser Farbfernseher (HD) mit Nintendo Wii, Playstation 4, XBox One, XBox 360, Verstärker&lt;/li&gt;
+&lt;li&gt;Zeitschriftenschrank&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Verpflegung&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In der Mikrowelle können mitgebrachte Speisen aufgewärmt werden. Damit die Mikrowelle ordentlich bleibt, werden regelmässige Benutzer gebeten, sich in die Putzliste einzutragen und eine Woche für die Mikrowellensauberkeit zu sorgen.&lt;/li&gt;
+&lt;li&gt;Meist sind die Automaten oder der Wasserspender gefüllt. Sollte dies nicht der Fall sein, so kannst du dich höflich an die Vorstände im CAB E37 wenden.
+
+&lt;ul&gt;
+&lt;li&gt;Quellwasser steht zum Verzehr im Aufenthaltsraum à discrétion zur Verfügung.&lt;/li&gt;
+&lt;li&gt;Tee steht gratis zur Verfügung. Teebeutel gibt es im Schrank unter der Kaffeemaschine, heisses Wasser aus dem Wasserspender oder der Kaffeemaschine.&lt;/li&gt;
+&lt;li&gt;Kaffee gibt es aus dem Automaten für AMIV-Mitglieder gratis (1 pro Tag)&lt;/li&gt;
+&lt;li&gt;Bier gibt es für 1,20 CHF (Flasche 0,33l). Ein Bier pro Tag und Person bezahlt euch der AMIV zum gemeinsamen Verzehr im(!) Aufenthaltsraum.&lt;/li&gt;
+&lt;li&gt;Energy Drinks gibt es für 1,00 CHF im Automaten&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*= Für den Gratisbezug von Bier und Kaffee ist eine einmalige Registrierung der Legi nötig. Diese kann hier einfach online getätigt werden.
+##Zugang&lt;/p&gt;
+
+&lt;p&gt;Während der normalen Gebäudeöffnungszeiten des CAB steht der Raum allen Mitgliedern zur Verfügung. Wir arbeiten daran, für alle einen &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt; Gebäudezugang zu erhalten. Leider stellt sich dies als einen langwierigen Prozess dar. Sollte sich etwas verändern, wird der Vorstand dies natürlich mitteilen.
+##Ordnung bewahren&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Becher und Flaschen sind in den entsprechenden vorhanden Entsorgungskisten zu entsorgen
+
+&lt;ul&gt;
+&lt;li&gt;Die Falkenbier-Flaschen haben ein Pfand, weshalb diese bitte in den bereit gestellten Harassen zu hinterlegen sind. Das Bier aus dem Automaten ist nur für den Aufenthaltsraum gedacht und darf nicht mitgenommen werden!&lt;/li&gt;
+&lt;li&gt;Alle restlichen Glasflaschen sind im Container im Innenhof zu entsorgen.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Essensreste und -behältnisse entsprechend entsorgen&lt;/li&gt;
+&lt;li&gt;Controller, Spiele und Kopfhörer entsprechend zurücklegen&lt;/li&gt;
+&lt;li&gt;Natürlich gilt: den Raum so verlassen, wie man ihn antreffen möchte und das immer ordentlicher, als dass man ihn beim Betreten vorgefunden hat!&lt;/li&gt;
+&lt;li&gt;Wenn alle mithelfen, bleibt die Ordnung erhalten!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Konsequenzen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Werden einzelne fehlbare Mitglieder beim Nichteinhalten der Ordnungsregeln erwischt, so können ihnen diverse AMIV Privilegien (insb. Website und Files, Events sowie Zugang zum Aufenthaltsraum und Getränken) entzogen werden!&lt;/li&gt;
+&lt;li&gt;Wird die Ordnung generell vernachlässigt, so können diverse Privilegien für alle gestrichen werden, bis die Situation sich bessert!&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Der AMIV</title>
-      <link>http://amiv.com/about/</link>
+      <link>https://amiv-eth.github.io/amiv-website/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/about/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/about/</guid>
       <description>
 
 &lt;h1 id=&#34;über-den-amiv&#34;&gt;ÜBER DEN AMIV&lt;/h1&gt;
@@ -302,6 +535,75 @@ Universitätsstrasse 6
 &lt;p&gt;Als Student der Departmente D-ITET und D-MAVT wird man Mitglied beim AMIV(gemäss den Statuten), indem man Mitglied des VSETH ist. Um Mitglied beim VSETH zu werden, muss einzig der Semesterbeitrag bezahlt werden (CHF 10.-). Dazu musst du einfach bei der Online-Einschreibung via myStudies das entsprechende Häkchen setzen, wie im folgenden Bild zu sehen ist:
 ![Anweisungen Mitglied werden][Anweisungen Mitglied werden Image]
 Solltest du diesen Haken vergessen haben, aber dennoch noch Mitglied beim AMIV werden, so kannst du dich einfach kurz beim Vorstand melden, dieser wird dir dann das weitere Vorgehen erklären. Von den CHF 10.- Studenten-Beitrag fliesst der grösste Teil in die Kasse des AMIV. Je mehr Studenten also Mitglied beim VSETH sind, desto mehr Mittel haben wir zur Verfügung wärend des Semesters, um dir coole Events und seröse Dienstleistungen zu bieten.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Der AMIV</title>
+      <link>https://amiv-eth.github.io/amiv-website/services/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/services/links/</guid>
+      <description>&lt;p&gt;#Links
+##Studentenorganisationen &amp;amp; -verbände&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[VSET  - Dachverband der studentischen Organisationen an der ETH]
+Dem VSETH unterstehen viele Organisationen und Dienste für alle ETH Studenten, wie z.B. Polykum, StuZ, Bücherbörse, Polymesse, Filmstelle, Nightline, Challenge, Musikzimmer, Debattierclub, ETH MUN, &amp;hellip;&lt;/li&gt;
+&lt;li&gt;[VSS - Verband Schweizer Studierendenschaften]&lt;/li&gt;
+&lt;li&gt;[Nightline Zürich]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##ETH Zürich&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[ETH Hauptseite]&lt;/li&gt;
+&lt;li&gt;[D-MAVT]&lt;/li&gt;
+&lt;li&gt;[D-ITET]&lt;/li&gt;
+&lt;li&gt;[D-GESS]&lt;/li&gt;
+&lt;li&gt;[ETH SoC - Studienorientierung und Coaching]&lt;/li&gt;
+&lt;li&gt;[ETH Life - Onlinezeitung]&lt;/li&gt;
+&lt;li&gt;[ETH Gastro - Menüpläne für Mensen}&lt;/li&gt;
+&lt;li&gt;[ASVZ]&lt;/li&gt;
+&lt;li&gt;[Polybuchhandlung]&lt;/li&gt;
+&lt;li&gt;[ETH Bibliothek]&lt;/li&gt;
+&lt;li&gt;[ETH Wohnungsvermittlung]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##Praktische Tools fürs Studium&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[Gebäudeplan Zentrum]&lt;/li&gt;
+&lt;li&gt;[Gebäudeplan Hönggerberg]&lt;/li&gt;
+&lt;li&gt;[ETH Rauminfo]&lt;/li&gt;
+&lt;li&gt;[SPOD - Student Print on Demand]&lt;/li&gt;
+&lt;li&gt;[VPP - Drucken und Plotten an der ETH]&lt;/li&gt;
+&lt;li&gt;[Easy VPP - einfach bedienbares VPP Tool (inoffiziell)]&lt;/li&gt;
+&lt;li&gt;[ETH IDES - ETH Software bestellen und downloaden]&lt;/li&gt;
+&lt;li&gt;[ETH Personensuche]&lt;/li&gt;
+&lt;li&gt;[ETH Corporate Design]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt;
+Allgemein bekannte, studienbezogene Links wie mystudies, das VVZ oder password.ethz.ch wurden hier zugunsten der Übersichtlichkeit bewusst weggelassen.
+Weitere hilfreiche Links können gerne an [info@amiv.ethz.ch] mitgeteilt werden.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prüfungsvorbereitungskurse PVK</title>
+      <link>https://amiv-eth.github.io/amiv-website/services/pvk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/services/pvk/</guid>
+      <description>&lt;p&gt;#Prüfungsvorbereitungskurse PVK&lt;/p&gt;
+
+&lt;p&gt;Jedes Jahr organisiert der AMIV Prüfungsvorbereitungskurse für das erste und zweite Jahr ITET und MAVT. Die Kurse finden in der vorlesungsfreien Zeit im Anschluss an die jeweiligen Semester statt. Während dem seit neustem für beide Studiengänge für das zweite Jahr auch im Winter PVKs angeboten werden, gibt es für das Basisjahr nur im Sommer Kurse, da für diese Studenten keine Prüfungen anstehen und viele von ihnen das Werkstattpraktikum absolvieren.&lt;/p&gt;
+
+&lt;p&gt;Zur Semestermitte jedes FS evaluiert der AMIV die Qualität der Hilfsassistenten durch eine grosse Umfrage, um die Qualität so hoch wie möglich zu halten. Die Anmeldung für die Teilnehmer beginnt dann in der Regel Mitte Mai. Die Kurse sind normalerweise wenige Minuten nach Anmeldebeginn ausgebucht. Informiere dich also jeweils rechtzeitig [hier] über das Kursangebot und den genauen Anmeldeprozess.
+Die wichtigsten Infos über die PVKs werden jedoch auch rechtzeitig über den AMIV Announce bekannt gegeben. Die PVKs kosten normalerweise 10.- Franken pro besuchtem Halbtag. Die Kursgebühren werden praktisch ausschliesslich für die Bezahlung der Assistenten verwendet. Die Organisatoren der PVKs sind meist Mitglieder der HoPo-Teams und arbeiten ehrenamtlich und unentgeltlich.&lt;/p&gt;
+
+&lt;p&gt;Im Jahr 2011 haben wir ein neues Anmeldeportal geschrieben. Die Bezahlung läuft neu über Postfinance (Postkonto benötigt), PayPal oder Kreditkare und nichtbezahlte Anmeldungen werden nach kurzer Zeit automatisch gelöscht um die ehrenamtlichen Organisatoren zu entlasten.&lt;/p&gt;
 </description>
     </item>
     

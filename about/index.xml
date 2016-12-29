@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About-rsses on AMIV Homepage</title>
-    <link>http://amiv.com/about/index.xml</link>
-    <description>Recent content in About-rsses on AMIV Homepage</description>
+    <title>Abouts on AMIV Homepage</title>
+    <link>https://amiv-eth.github.io/amiv-website/about/index.xml</link>
+    <description>Recent content in Abouts on AMIV Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-CH</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Wed, 07 Dec 2016 14:37:10 +0100</lastBuildDate>
-    <atom:link href="http://amiv.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amiv-eth.github.io/amiv-website/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>YOOOO PROTOCOLS</title>
-      <link>http://amiv.com/about/protocols/</link>
+      <link>https://amiv-eth.github.io/amiv-website/about/protocols/</link>
       <pubDate>Wed, 07 Dec 2016 14:37:10 +0100</pubDate>
       
-      <guid>http://amiv.com/about/protocols/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/about/protocols/</guid>
       <description>
 
 &lt;h1 id=&#34;protokolle&#34;&gt;PROTOKOLLE&lt;/h1&gt;
@@ -24,10 +24,10 @@
     
     <item>
       <title>Der AMIV</title>
-      <link>http://amiv.com/about/</link>
+      <link>https://amiv-eth.github.io/amiv-website/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amiv.com/about/</guid>
+      <guid>https://amiv-eth.github.io/amiv-website/about/</guid>
       <description>
 
 &lt;h1 id=&#34;über-den-amiv&#34;&gt;ÜBER DEN AMIV&lt;/h1&gt;

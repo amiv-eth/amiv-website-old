@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on AMIV Homepage</title>
+    <link>https://amiv-eth.github.io/amiv-website/en/services/index.xml</link>
+    <description>Recent content in Services on AMIV Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-CH</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://amiv-eth.github.io/amiv-website/en/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Services</title>
+      <link>https://amiv-eth.github.io/amiv-website/en/services/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/en/services/</guid>
+      <description>
+
+&lt;h1 id=&#34;services&#34;&gt;Services&lt;/h1&gt;
+
+&lt;p&gt;Alongside its Key fields of activity, such as the representation of student interests, the operation of our common room, cultural events and the organization of recruitment events, AMIV also offers a vast variety of services.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Student for a Day</title>
+      <link>https://amiv-eth.github.io/amiv-website/en/services/studentforaday/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://amiv-eth.github.io/amiv-website/en/services/studentforaday/</guid>
+      <description>
+
+&lt;h1 id=&#34;student-for-a-day&#34;&gt;Student for a Day&lt;/h1&gt;
+
+&lt;iframe src=&#34;https://spreadsheets.google.com/viewform?formkey=dHZ5eXVURDhLU3A5U0tkanFTMmstLWc6MQ&#34; width=&#34;100%&#34; height=&#34;1600px&#34; style=&#34;border:0&#34; name=&#34;google_spreadsheet&#34; id=&#34;google_spreadsheet&#34;&gt;Das IFrame konnte nicht geladen werden!&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
