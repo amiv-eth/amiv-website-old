@@ -1,4 +1,4 @@
-baseurl = "https://amiv-eth.github.io/amiv-website"
+baseurl = "https://amiv-eth.github.io/amiv-website/"
 title = "AMIV Homepage"
 languageCode = "de-CH"
 theme = "amiv-theme"
@@ -8,7 +8,7 @@ DefaultContentLanguage = "de"
 author = "Mohammed Khouni"
 # Shown in the side menu
 copyright = "&copy; 2016. All rights reserved."
-canonifyurls = true
+canonifyUrls = true
 
 [params]
   # Shown in the home page
@@ -29,41 +29,41 @@ weight = 0
 languageName = "Deutsch"
 
 [[languages.de.menu.main]]
-  url = "/"
+  url = "/amiv-website/"
   name = "Aktuell"
   weight = 0
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.de.menu.main]]
-  url = "/about/"
+  url = "/amiv-website/about/"
   name = "Der AMIV"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
   hasChildren = true
 [[languages.de.menu.main]]
-  url = "/about/protocols"
+  url = "/amiv-website/about/protocols"
   name = "Protokolle"
   weight = 12
   pre = "<i class='fa fa-file-text fa-fw'></i>"
   identifier = "protocols"
   parent = "about"
 [[languages.de.menu.main]]
-  url = "/studies/"
+  url = "/amiv-website/studies/"
   name = "Studium"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "studies"
   hasChildren = true
 [[languages.de.menu.main]]
-  url = "/studies/hopo-mavt"
+  url = "/amiv-website/studies/hopo-mavt"
   name = "Hochschulpolitik MAVT"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "hopo-mavt"
   parent = "studies"
 [[languages.de.menu.main]]
-  url = "/studies/hopo-itet"
+  url = "/amiv-website/studies/hopo-itet"
   name = "Hochschulpolitik ITET"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
@@ -71,31 +71,31 @@ languageName = "Deutsch"
   parent = "studies"
 
 [[languages.de.menu.main]]
-  url = "/studydocs/"
+  url = "/amiv-website/studydocs/"
   name = "Studienunterlagen"
   weight = 30
   pre = "<i class='fa fa-file-text-o fa-fw'></i>"
   identifier = "studydocs"
 [[languages.de.menu.main]]
-  url = "/events/"
+  url = "/amiv-website/events/"
   name = "Events"
   weight = 40
   pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
   identifier = "events"
 [[languages.de.menu.main]]
-  url = "/ersti/"
+  url = "/amiv-website/ersti/"
   name = "Ersti"
   weight = 50
   pre = "<i class='fa fa-street-view fa-fw'></i>"
   identifier = "ersti"
 [[languages.de.menu.main]]
-  url = "/services/"
+  url = "/amiv-website/services/"
   name = "Angebote"
   weight = 60
   pre = "<i class='fa fa-gears fa-fw'></i>"
   identifier = "services"
 [[languages.de.menu.main]]
-  url = "/career/"
+  url = "/amiv-website/career/"
   name = "Jobbörse"
   weight = 70
   pre = "<i class='fa fa-briefcase fa-fw'></i>"
@@ -108,49 +108,49 @@ weight = 10
 languageName = "English"
 
 [[languages.en.menu.main]]
-  url = "/"
+  url = "/amiv-website/"
   name = "Home"
   weight = 0
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.en.menu.main]]
-  url = "/about/"
+  url = "/amiv-website/about/"
   name = "The AMIV"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
 [[languages.en.menu.main]]
-  url = "/studies/"
+  url = "/amiv-website/studies/"
   name = "Studies"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "studies"
 [[languages.en.menu.main]]
-  url = "/studydocs/"
+  url = "/amiv-website/studydocs/"
   name = "Study Documents"
   weight = 30
   pre = "<i class='fa fa-file-text-o fa-fw'></i>"
   identifier = "studydocs"
 [[languages.en.menu.main]]
-  url = "/events/"
+  url = "/amiv-website/events/"
   name = "Events"
   weight = 40
   pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
   identifier = "events"
 [[languages.en.menu.main]]
-  url = "/ersti/"
+  url = "/amiv-website/ersti/"
   name = "Freshers"
   weight = 50
   pre = "<i class='fa fa-street-view fa-fw'></i>"
   identifier = "ersti"
 [[languages.en.menu.main]]
-  url = "/services/"
+  url = "/amiv-website/services/"
   name = "Services"
   weight = 60
   pre = "<i class='fa fa-gears fa-fw'></i>"
   identifier = "services"
 [[languages.en.menu.main]]
-  url = "/career/"
+  url = "/amiv-website/career/"
   name = "Career Portal"
   weight = 70
   pre = "<i class='fa fa-briefcase fa-fw'></i>"
