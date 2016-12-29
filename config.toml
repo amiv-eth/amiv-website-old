@@ -1,4 +1,4 @@
-baseurl = "http://amiv.com/"
+baseurl = "https://amiv-eth.github.io/amiv-website"
 title = "AMIV Homepage"
 languageCode = "de-CH"
 theme = "amiv-theme"
