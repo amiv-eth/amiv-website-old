@@ -1,7 +1,7 @@
 baseurl = "http://amiv.com/"
 title = "AMIV Homepage"
 languageCode = "de-CH"
-theme = "themeAMIV"
+theme = "amiv"
 
 DefaultContentLanguage = "de"
 
@@ -14,6 +14,7 @@ canonifyurls = true
   # Shown in the home page
   subtitle = "A Hugo Theme"
   brand = "amiv"
+  logo = "main.svg"
   author = "AMIV an der ETH"
   googleAnalytics = ""
   dateFormat = "02 Jan 2006, 15:04"
@@ -62,7 +63,7 @@ languageName = "Deutsch"
 [[languages.de.menu.main]]
   url = "/studies/hopo-mavt"
   name = "Hochschulpolitik MAVT"
-  weight = 20
+  weight = 22
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "hopo-mavt"
   parent = "studies"
@@ -116,11 +117,25 @@ languageName = "English"
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
 [[languages.en.menu.main]]
+  url = "/about/protocols"
+  name = "Protocols"
+  weight = 12
+  pre = "<i class='fa fa-file-text fa-fw'></i>"
+  identifier = "protocols"
+  parent = "about"
+[[languages.en.menu.main]]
   url = "/studies/"
   name = "Studies"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "studies"
+[[languages.en.menu.main]]
+  url = "/studies/hopo-mavt"
+  name = "University Politics MAVT"
+  weight = 22
+  pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
+  identifier = "hopo-mavt"
+  parent = "studies"
 [[languages.en.menu.main]]
   url = "/studydocs/"
   name = "Study Documents"
