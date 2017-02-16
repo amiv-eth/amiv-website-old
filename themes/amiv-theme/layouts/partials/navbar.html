@@ -14,15 +14,26 @@
 
 	  <div class="dropdown-menu">
 	    {{ range .Children }}
-	    <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Pre }}{{ .Name }}</a>
 	    {{ end }}
 	  </div>
 	</li>
 	{{ else }}
 	<li class="nav-item"><a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Pre }}{{ .Name }}</a></li>
 	{{ end }}
+        {{ end }}
+        <!-- Switches out the EN and DE Menu Item to change the language -->
+        {{ if eq .Lang "de" }}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ .Site.BaseURL }}en{{ .Permalink | relLangURL }}">EN</a>
+            </li>
+        {{ else }}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ replace .Permalink "/en" "" }}">DE</a>
+            </li>
 	{{ end }}
       </ul>
+      <a class="navbar-right float-xs-right" href="#"><i class="fa fa-user-circle fa-2x"></i>LOGIN</a>
     </div>
   </div>
 </nav>
