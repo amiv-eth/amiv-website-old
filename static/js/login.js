@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#loginSubmit").click(function(){
-	var user= $("#username").val();
-	var password = $("#password").val();
+	var user= $("#usernameInput").val();
+	var password = $("#passwordInput").val();
 	
 	if(user =='' || password==''){
 	    $('input[type="text"],input[type="password"]').css("border","2px solid red");
@@ -14,9 +14,10 @@ $(document).ready(function(){
 	    })
 	}
     });
-    $("#loginHeader").leanModal({
-	top: 100,
-	overlay: 0.6,
-	closeButton: ".modal_close"
-    });
+    //$("#LoginModal").modal('toggle');
+    //$("#loginHeader").leanModal({
+//	top: 100,
+//	overlay: 0.6,
+//	closeButton: ".modal_close"
+  //  });
 });
