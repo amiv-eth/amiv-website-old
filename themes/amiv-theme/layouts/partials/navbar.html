@@ -33,7 +33,11 @@
             </li>
 	{{ end }}
       </ul>
-      <a class="navbar-right float-xs-right" href="#"><i class="fa fa-user-circle fa-2x"></i>LOGIN</a>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".LoginModal" href="#LoginModal">
+          <i class="fa fa-user-circle fa-2x"></i>LOGIN
+      </button>
+      <!--<a class="navbar-right float-xs-right loginLink" href="#"><i class="fa fa-user-circle fa-2x"></i>LOGIN</a>-->
     </div>
   </div>
 </nav>
+{{ partial "login.html" . }}
