@@ -21,6 +21,12 @@ body
         margin-right: 5px;
     }
 
+.loginLink
+{
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+}
+
 .bg-inverse
 {
     background-color: #1f2d54!important;

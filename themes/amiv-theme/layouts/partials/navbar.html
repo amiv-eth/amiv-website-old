@@ -1,12 +1,12 @@
-<nav class="navbar navbar-full navbar-dark bg-inverse">
+<nav class="navbar navbar-toggeable-md navbar-full navbar-dark bg-inverse">
   <div class="container" style="height: 100%">
     <!-- Brand and toggle get grouped for better mobile display -->
+    <button class="navbar-toggler navbar-toggler-right-collapsed hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
       <img src="{{ .Site.BaseURL }}/img/logo_no_text.svg" style="height:100%;">
     </a>
-    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-    <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-      <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarResponsive" aria-expanded="false">
+      <ul class="navbar-nav mr-auto">
 	{{ range .Site.Menus.main }}
 	{{ if .HasChildren }}
 	<li class="nav-item dropdown">
