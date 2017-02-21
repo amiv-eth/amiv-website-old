@@ -1,0 +1,28 @@
+<div class="modal fade LoginModal" id="LoginModal" role="dialog" data-backdrop="false" tabindex="-1" aria-labelledby="loginModalLabel" arial-hidden="true">
+  <div class="modal-dialog" role="document">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+	<h4 class="modal-title" id="loginModalLabel">LOGIN</h4>
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	<div class="form-group">
+	  <label for="usernameInput">{{ i18n "username" }}</label>
+	  <input type="text" class="form-control" id="usernameInput">
+	</div>
+	<div class="form-group">
+	  <label for="passwordInput">{{ i18n "password" }}</label>
+	  <input type="password" class="form-control" id="passwordInput" placeholder='{{ i18n "password"}}'>
+	</div>
+	<button id="loginSubmit" class="btn btn-primary">{{ i18n "submit" }}</button>
+      </div>
+      <div class="modal-footer">
+	<button type="button" class="btn btn-default" data-dismiss="modal">{{ i18n "close" }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
