@@ -1,11 +1,14 @@
-<nav class="navbar navbar-toggeable-md navbar-full navbar-dark bg-inverse">
+<nav class="navbar navbar-toggleable-md navbar-dark navbar-full bg-inverse">
   <div class="container" style="height: 100%">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <button class="navbar-toggler navbar-toggler-right-collapsed hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<button class="navbar-toggler navbar-toggler-right-collapsed hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button> -->
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}" style="margin-right:0">
       <img src="{{ .Site.BaseURL }}/img/logo_no_text.svg" style="height:100%;">
     </a>
-    <div class="collapse navbar-collapse" id="navbarResponsive" aria-expanded="false">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto">
 	{{ range .Site.Menus.main }}
 	{{ if .HasChildren }}
@@ -33,9 +36,12 @@
             </li>
 	{{ end }}
       </ul>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".LoginModal" href="#LoginModal">
-          <i class="fa fa-user-circle fa-2x"></i>LOGIN
-      </button>
+      <form class="form-inline my-2 my-lg-0">
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".LoginModal" href="#LoginModal">
+	  <!--<i class="fa fa-user-circle fa-2x"></i> --> LOGIN
+	</button>
+      </form>
+      
       <!--<a class="navbar-right float-xs-right loginLink" href="#"><i class="fa fa-user-circle fa-2x"></i>LOGIN</a>-->
     </div>
   </div>

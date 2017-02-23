@@ -115,7 +115,7 @@ languageName = "English"
   identifier = "home"
 [[languages.en.menu.main]]
   url = "/amiv-website/about/"
-  name = "The AMIV"
+  name = "AMIV"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
