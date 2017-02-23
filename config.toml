@@ -21,6 +21,7 @@ canonifyUrls = true
   custom_css = [""]
   custom_js = ["js/lib/amivcore.js", "js/login.js"]
   api_url = "https://amiv-apidev.vsos.ethz.ch"
+  spec_url = "http://localhost:1313/amiv-website/js/lib/spec.json"
 
 # SIDE MENU IN GERMAN
 
@@ -119,6 +120,13 @@ languageName = "English"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
   identifier = "about"
+[[languages.en.menu.main]]
+  url = "/amiv-website/about/protocols"
+  name = "Protocols"
+  weight = 12
+  pre = "<i class='fa fa-file-text fa-fw'></i>"
+  identifier = "protocols"
+  parent = "about"
 [[languages.en.menu.main]]
   url = "/amiv-website/studies/"
   name = "Studies"
