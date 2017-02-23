@@ -29,7 +29,7 @@
       <script>
 	api = {{ .Site.Params.api_url }};
 	api_url_config = api;
-	spec_url_config = "{{ .Site.BaseURL }}/js/lib/spec.json";
+        spec_url_config = {{ .Site.Params.spec_url }};
 	lang = {{ .Lang }};
       </script>
 
