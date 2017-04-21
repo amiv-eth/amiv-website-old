@@ -11,3 +11,6 @@ auto-save-list
 tramp
 .\#*
 .markdown-preview.html
+
+# Deprecated themeAMIV
+themes/themeAMIV/*
