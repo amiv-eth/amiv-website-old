@@ -21,6 +21,12 @@ body
         margin-right: 5px;
     }
 
+.LoginModal
+{
+    max-width: 1000rem;
+    max-height: 3000rem;
+}
+
 .loginLink
 {
     padding-top: .425rem;
