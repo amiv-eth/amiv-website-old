@@ -32,7 +32,7 @@ languageName = "Deutsch"
 [[languages.de.menu.main]]
   url = "/amiv-website/"
   name = "Aktuell"
-  weight = 0
+  weight = 1
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.de.menu.main]]
@@ -70,7 +70,6 @@ languageName = "Deutsch"
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "hopo-itet"
   parent = "studies"
-
 [[languages.de.menu.main]]
   url = "/amiv-website/studydocs/"
   name = "Studienunterlagen"
