@@ -1,5 +1,4 @@
-<div class="modal fade LoginModal" id="LoginModal" role="dialog" data-backdrop="false" tabindex="-1" aria-labelledby="loginModalLabel" arial-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal LoginModal" id="LoginModal" role="dialog" data-backdrop="false" tabindex="-1" aria-labelledby="loginModalLabel" arial-hidden="true">
     <!-- Modal content -->
     <div class="modal-content">
       <div class="modal-header">
@@ -11,7 +10,7 @@
       <div class="modal-body">
 	<div class="form-group">
 	  <label for="usernameInput">{{ i18n "username" }}</label>
-	  <input type="text" class="form-control" id="usernameInput">
+          <input type="text" class="form-control" id="usernameInput" placeholder='{{ i18n "password" }}' autofocus>
 	</div>
 	<div class="form-group">
 	  <label for="passwordInput">{{ i18n "password" }}</label>
