@@ -36,12 +36,23 @@
             </li>
 	{{ end }}
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".LoginModal" href="#LoginModal">
-	  <!--<i class="fa fa-user-circle fa-2x"></i> --> LOGIN
+
+      <span id="LoginFormNavbar">
+      <form class="form-inline my-2 my-lg-0" >
+	<button type="button" class="btn btn-primary" id="LoginButtonNavbar" data-toggle="modal" data-target=".LoginModal" href="#LoginModal">
+	  <i class="fa fa-user-circle fa-2x"></i> LOGIN
 	</button>
       </form>
-      
+      </span>
+
+      <span id="LogoutFormNavbar">
+      <form class="form-inline my-2 my-lg-0" style="display:none;">
+	<button type="button" class="btn btn-primary" id="LogoutButtonNavbar">
+	  <i class="fa fa-power-off fa-2x"></i> LOGOUT
+	</button>
+      </form>
+      </span>
+
       <!--<a class="navbar-right float-xs-right loginLink" href="#"><i class="fa fa-user-circle fa-2x"></i>LOGIN</a>-->
     </div>
   </div>
