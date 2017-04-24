@@ -20,7 +20,7 @@ canonifyUrls = true
   # (relative to /static folder)
   custom_css = [""]
   custom_js = ["js/lib/amivcore.js", "js/login.js"]
-  api_url = "https://amiv-apidev.vsos.ethz.ch"
+  api_url = "https://amiv-api.ethz.ch"
   spec_url = "http://localhost:1313/amiv-website/js/lib/spec.json"
 
 # SIDE MENU IN GERMAN
@@ -110,7 +110,7 @@ languageName = "English"
 [[languages.en.menu.main]]
   url = "/amiv-website/"
   name = "Home"
-  weight = 0
+  weight = 1
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.en.menu.main]]
