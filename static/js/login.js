@@ -13,16 +13,23 @@ $(document).ready(function(){
 		    alert("Wrong credentials!");
                 } else {
                     console.log("Success! Loged in");
+                    $("#usernameInput").val('');
+                    $("#passwordInput").val('');
                     $("#LoginFormNavbar").attr("style","display:none;");
                     $("#LogoutFormNavbar").removeAttr("style");
-                    //$("#LoginModal").modal('hide');
+                    $("#LoginModal").modal('hide');
                 }
-	    })
+	    });
 	}
     });
     $("#LogoutButtonNavbar").click(function(){
+        console.log("Attempting to log out...");
+        amivcore.logout();
+        console.log("Successfully logged out the user");
         $("#LogoutFormNavbar").attr("style","display:none;");
-        $("#LoginFormNavbar").removeAttr("style");
+        $("#LoginFormNavbar").removeAttr("style"); 
+        //$("#LogoutFormNavbar").attr("style","display:none;");
+        //$("#LoginFormNavbar").removeAttr("style");
     });
         //$("#loginHeader").leanModal({
 //	top: 100,
