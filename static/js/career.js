@@ -1,4 +1,4 @@
-// JOBOFFERS.JS
+// JOBOFFERS.Js
 // Script to fetch joboffer entries in the API
 // To publish on the Joboffers page on the website
 
@@ -6,6 +6,8 @@
 $( document ).ready(function() { 
     // Wait for AMIVCORE Library to be initialized
     amivcore.on('ready', function() {
+        if (amivcore.authenticated){
+            console.log("Authed");
         // Send request to fetch only joboffers entries in the API approved for publishing
         amivcore.joboffers.GET({
             data: {
@@ -28,11 +30,11 @@ $( document ).ready(function() {
             var counter = 0;
             console.log(returnJoboffers['_items']);
             // Iterate through all fetched joboffer entries
-            for(var counter = 0; counter<=meta['total']; counter++) {
+            for(var counter = 0; counter<meta['total']; counter++) {
                 var element = returnJoboffers['_items'][counter];
                 console.log(element);
                 // Check if they are activated for publishing on website
-                if (element['show_website']) {
+                if (element['show_website'] == true) {
                     console.log('Published Joboffer');
                     var jobofferTitle= { 'de': element['title_de'], 'en': element['title_en']};
                     var jobofferDescription= {'de': element['description_de'], 'en': element['description_en']};
@@ -75,5 +77,6 @@ $( document ).ready(function() {
                 
             }
         });
+        }
     });
 });
