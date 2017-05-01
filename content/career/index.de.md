@@ -1,9 +1,9 @@
 +++
-title = "About"
+title = "Karriere"
 date = "2014-04-09"
 description = "Job Angebote Portal des AMIV"
-js = ["joboffers.js"]
+js = ["career.js"]
 +++
-# Job Angebote
+# Karriere Angebote
 
-Diese Seite listet die publizierten Job Angebote.
+Diese Seite listet die publizierten Karriere Angebote.
