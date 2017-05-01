@@ -36,7 +36,7 @@ languageName = "Deutsch"
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.de.menu.main]]
-  url = "/amiv-website/about/"
+  url = "/amiv-website/about/index/"
   name = "Der AMIV"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
@@ -50,7 +50,7 @@ languageName = "Deutsch"
   identifier = "protocols"
   parent = "about"
 [[languages.de.menu.main]]
-  url = "/amiv-website/studies/"
+  url = "/amiv-website/studies/index/"
   name = "Studium"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
@@ -71,31 +71,31 @@ languageName = "Deutsch"
   identifier = "hopo-itet"
   parent = "studies"
 [[languages.de.menu.main]]
-  url = "/amiv-website/studydocs/"
+  url = "/amiv-website/studydocs/index/"
   name = "Studienunterlagen"
   weight = 30
   pre = "<i class='fa fa-file-text-o fa-fw'></i>"
   identifier = "studydocs"
 [[languages.de.menu.main]]
-  url = "/amiv-website/events/"
+  url = "/amiv-website/events/index/"
   name = "Events"
   weight = 40
   pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
   identifier = "events"
 [[languages.de.menu.main]]
-  url = "/amiv-website/ersti/"
+  url = "/amiv-website/ersti/index/"
   name = "Ersti"
   weight = 50
   pre = "<i class='fa fa-street-view fa-fw'></i>"
   identifier = "ersti"
 [[languages.de.menu.main]]
-  url = "/amiv-website/services/"
+  url = "/amiv-website/services/index/"
   name = "Angebote"
   weight = 60
   pre = "<i class='fa fa-gears fa-fw'></i>"
   identifier = "services"
 [[languages.de.menu.main]]
-  url = "/amiv-website/career/"
+  url = "/amiv-website/career/index/"
   name = "Jobbörse"
   weight = 70
   pre = "<i class='fa fa-briefcase fa-fw'></i>"
@@ -114,7 +114,7 @@ languageName = "English"
   pre = "<i class='fa fa-home fa-fw'></i>"
   identifier = "home"
 [[languages.en.menu.main]]
-  url = "/amiv-website/about/"
+  url = "/amiv-website/about/index/"
   name = "AMIV"
   weight = 10
   pre = "<i class='fa fa-info-circle fa-fw'></i>"
@@ -127,37 +127,37 @@ languageName = "English"
   identifier = "protocols"
   parent = "about"
 [[languages.en.menu.main]]
-  url = "/amiv-website/studies/"
+  url = "/amiv-website/studies/index/"
   name = "Studies"
   weight = 20
   pre = "<i class='fa fa-graduation-cap fa-fw'></i>"
   identifier = "studies"
 [[languages.en.menu.main]]
-  url = "/amiv-website/studydocs/"
+  url = "/amiv-website/studydocs/index/"
   name = "Study Documents"
   weight = 30
   pre = "<i class='fa fa-file-text-o fa-fw'></i>"
   identifier = "studydocs"
 [[languages.en.menu.main]]
-  url = "/amiv-website/events/"
+  url = "/amiv-website/events/index/"
   name = "Events"
   weight = 40
   pre = "<i class='fa fa-fire-extinguisher fa-fw'></i>"
   identifier = "events"
 [[languages.en.menu.main]]
-  url = "/amiv-website/ersti/"
+  url = "/amiv-website/ersti/index/"
   name = "Freshers"
   weight = 50
   pre = "<i class='fa fa-street-view fa-fw'></i>"
   identifier = "ersti"
 [[languages.en.menu.main]]
-  url = "/amiv-website/services/"
+  url = "/amiv-website/services/index/"
   name = "Services"
   weight = 60
   pre = "<i class='fa fa-gears fa-fw'></i>"
   identifier = "services"
 [[languages.en.menu.main]]
-  url = "/amiv-website/career/"
+  url = "/amiv-website/career/index/"
   name = "Career Portal"
   weight = 70
   pre = "<i class='fa fa-briefcase fa-fw'></i>"
